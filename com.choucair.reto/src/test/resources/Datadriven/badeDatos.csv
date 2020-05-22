@@ -1,0 +1,2 @@
+id,required,email,password,confirm_password,date,url,digits,range
+001,Carolina,ccg@gmail.com,123456,123456,07/10/2019,https://colorlib.com/polygon/metis/form-validation.html,123,7
