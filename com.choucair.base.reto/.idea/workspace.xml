@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b96c11f-2f21-42ca-9225-c5ebcd48ea0d" name="Default Changelist" comment="" />
+    <list default="true" id="3b96c11f-2f21-42ca-9225-c5ebcd48ea0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/definition/Regladetresdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/pageobjects/RegladetresPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/steps/RegladetresSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/resources/features/regladetres.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/SERENITY-JUNIT-calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/SERENITY-JUNIT-calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.html" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.json" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.calculadora/target/site/serenity/calculadora-de-calorías_calculo-exitoso-de-formulario-calculadora-de-calorias.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1c6L631AuQ6m0Vt8bYqcCpJ3wHd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />

@@ -1,0 +1,828 @@
+<html lang="es"><!--<![endif]--><head><script type="text/javascript" async="" src="//static.criteo.net/js/ld/publishertag.prebid.js"></script><script type="text/javascript" id="prebid" async="" src="//projectagora.net/libs/prebid.js"></script>
+<!-- Debug: Bootstrap Inserted by WordPress Twitter Bootstrap CSS plugin v3.4.1-0 http://icwp.io/w/ -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- / WordPress Twitter Bootstrap CSS Plugin from iControlWP. -->
+<!-- Quantcast Choice. Consent Manager Tag -->
+<script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="https://es.calcuworld.com/wp-content/plugins/easy-social-share-buttons3/assets/js/easy-social-share-buttons.min.js"></script><script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script><script src="https://partner.googleadservices.com/gampad/cookie.js?domain=es.calcuworld.com&amp;callback=_gfp_s_&amp;client=ca-pub-1879349339774425"></script><script src="https://pagead2.googlesyndication.com/pagead/js/r20200520/r20190131/show_ads_impl_fy2019.js" id="google_shimpl"></script><script src="https://rules.quantcount.com/rules-p-vY3yVtCqAnfjt.js" async=""></script><script type="text/javascript" async="" src="https://secure.quantserve.com/quant.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/es_ES/sdk.js?hash=49f06cb739693a1865348bae73de077d&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-K7LPKS"></script><script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v2.10&amp;appId=378707772227213"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://quantcast.mgr.consensu.org/cmp.js" async="" type="text/javascript"></script><script type="text/javascript" async="true">
+    var elem = document.createElement('script');
+    elem.src = 'https://quantcast.mgr.consensu.org/cmp.js';
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    (function() {
+    var gdprAppliesGlobally = true;
+    function addFrame() {
+        if (!window.frames['__cmpLocator']) {
+        if (document.body) {
+            var body = document.body,
+                iframe = document.createElement('iframe');
+            iframe.style = 'display:none';
+            iframe.name = '__cmpLocator';
+            body.appendChild(iframe);
+        } else {
+            // In the case where this stub is located in the head,
+            // this allows us to inject the iframe more quickly than
+            // relying on DOMContentLoaded or other events.
+            setTimeout(addFrame, 5);
+        }
+        }
+    }
+    addFrame();
+    function cmpMsgHandler(event) {
+        var msgIsString = typeof event.data === "string";
+        var json;
+        if(msgIsString) {
+        json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+        } else {
+        json = event.data;
+        }
+        if (json.__cmpCall) {
+        var i = json.__cmpCall;
+        window.__cmp(i.command, i.parameter, function(retValue, success) {
+            var returnMsg = {"__cmpReturn": {
+            "returnValue": retValue,
+            "success": success,
+            "callId": i.callId
+            }};
+            event.source.postMessage(msgIsString ?
+            JSON.stringify(returnMsg) : returnMsg, '*');
+        });
+        }
+    }
+    window.__cmp = function (c) {
+        var b = arguments;
+        if (!b.length) {
+        return __cmp.a;
+        }
+        else if (b[0] === 'ping') {
+        b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
+            "cmpLoaded": false}, true);
+        } else if (c == '__cmp')
+        return false;
+        else {
+        if (typeof __cmp.a === 'undefined') {
+            __cmp.a = [];
+        }
+        __cmp.a.push([].slice.apply(b));
+        }
+    }
+    window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+    window.__cmp.msgHandler = cmpMsgHandler;
+    if (window.addEventListener) {
+        window.addEventListener('message', cmpMsgHandler, false);
+    }
+    else {
+        window.attachEvent('onmessage', cmpMsgHandler);
+    }
+    })();
+    window.__cmp('init', {
+    		'Language': 'es',
+		'Initial Screen Title Text': 'Tu privacidad es importante para nosotros',
+		'Initial Screen Reject Button Text': 'No acepto',
+		'Initial Screen Accept Button Text': 'Acepto',
+		'Initial Screen Purpose Link Text': 'Más información',
+		'Purpose Screen Title Text': 'Tu privacidad es importante para nosotros',
+		'Purpose Screen Header Title Text': 'Configuración de privacidad',
+		'Purpose Screen Body Text': 'Puedes configurar tus preferencias y elegir como quieres que tus datos sean utilizados para los siguientes propósitos. Puedes elegir configurar tus preferencias solo con nosotros independientemente del resto de nuestros partners. Cada propósito tiene una descripción para que puedas saber como nosotros y nuestros partners utilizamos tus datos',
+		'Purpose Screen Enable All Button Text': 'Habilitar todo',
+		'Purpose Screen Vendor Link Text': 'Ver lista completa de partners',
+		'Purpose Screen Cancel Button Text': 'Cancelar',
+		'Purpose Screen Save and Exit Button Text': 'Guardar y salir',
+		'Vendor Screen Title Text': 'Tu privacidad es importante para nosotros',
+		'Vendor Screen Body Text': 'Puedes dar tu consentimiento de manera individual a cada partner. Ver la lista de todos los propósitos para los cuales utilizan tus datos para tener más información. En algunos casos, las empresas pueden revelar que usan tus datos sin pedir tu consentimiento, en función de intereses legítimos. Puedes hacer click en su política de privacidad para obtener más información al respecto o para rechazarlo.',
+		'Vendor Screen Accept All Button Text': 'Aceptar todo',
+		'Vendor Screen Reject All Button Text': 'Rechazar todo',
+		'Vendor Screen Purposes Link Text': 'Ver porpósitos',
+		'Vendor Screen Cancel Button Text': 'Cancelar',
+		'Vendor Screen Save and Exit Button Text': 'Guardar y salir',
+		'Initial Screen Body Text': 'Tanto nuestros partners como nosotros utilizamos cookies en nuestro sitio web para personalizar contenido y publicidad, proporcionar funcionalidades a las redes sociales, o analizar nuestro tráfico. Haciendo click consientes el uso de esta tecnologia en nuestra web. Puedes cambiar de opinion y personalizar tu consentimiento siempre que quieras volviendo a esta web',
+		'Initial Screen Body Text Option': 1,
+		'Display UI': 'inEU',
+		'Publisher Name': 'Calcuworld',
+		'Publisher Logo': 'https://es.calcuworld.com/wp-content/themes/twentytwelve-child/images/cw.png',
+		'Post Consent Page': 'http://summonpress.com',
+		'No Option': false,
+		'Display Persistent Consent Link' : false,
+		
+    });
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag -->
+    <style>
+    </style>
+    
+
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Calculadoras Online | Calculadoras</title>
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://es.calcuworld.com/xmlrpc.php">
+<meta name="yandex-verification" content="6f854a36b74231c4">
+<!--[if lt IE 9]>
+<script src="https://es.calcuworld.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://es.calcuworld.com/">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://es.calcuworld.com/#website","url":"https://es.calcuworld.com/","name":"Calculadoras","description":"Herramientas y calculadoras para hacer tu vida m\u00e1s sencilla","potentialAction":[{"@type":"SearchAction","target":"https://es.calcuworld.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"ImageObject","@id":"https://es.calcuworld.com/#primaryimage","inLanguage":"es","url":"https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png","width":256,"height":256},{"@type":"WebPage","@id":"https://es.calcuworld.com/#webpage","url":"https://es.calcuworld.com/","name":"Calculadoras Online | Calculadoras","isPartOf":{"@id":"https://es.calcuworld.com/#website"},"primaryImageOfPage":{"@id":"https://es.calcuworld.com/#primaryimage"},"datePublished":"2013-02-01T17:02:34+00:00","dateModified":"2019-11-26T11:20:31+00:00","inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://es.calcuworld.com/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//code.highcharts.com">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Calculadoras » Feed" href="https://es.calcuworld.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Calculadoras » RSS de los comentarios" href="https://es.calcuworld.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Calculadoras » Calculadoras Online RSS de los comentarios" href="https://es.calcuworld.com/calculadoras/feed/">
+<meta property="og:title" content="Calculadoras Online"><meta property="og:description" content="En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo...">
+             <meta property="og:type" content="website">
+               <meta property="og:url" content="https://es.calcuworld.com">
+            <meta property="og:image" content="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png">
+        
+        <meta property="fb:admins" content="641831632">
+        <meta property="fb:app_id" content="378707772227213">
+        		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/es.calcuworld.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://es.calcuworld.com/wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="style-tools-css" href="https://es.calcuworld.com/wp-content/themes/twentytwelve-child/css/style-tools.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://es.calcuworld.com/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://es.calcuworld.com/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="summonpress-footer-universal-css" href="https://es.calcuworld.com/wp-content/plugins/summonpress-footer-universal-v1.0.1/public/css/summonpress-footer-universal-public.css" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="twentytwelve-style-css" href="https://es.calcuworld.com/wp-content/themes/twentytwelve-child/style.css" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://es.calcuworld.com/wp-content/themes/twentytwelve/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="easy-social-share-buttons-css" href="https://es.calcuworld.com/wp-content/plugins/easy-social-share-buttons3/assets/css/easy-social-share-buttons.css" type="text/css" media="all">
+<link rel="stylesheet" id="essb-social-followers-counter-css" href="https://es.calcuworld.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/social-followers-counter/assets/css/essb-followers-counter.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="essb-cct-style-css" href="https://es.calcuworld.com/wp-content/plugins/easy-social-share-buttons3/lib/modules/click-to-tweet/assets/css/styles.css" type="text/css" media="all">
+<script type="text/javascript" src="https://es.calcuworld.com/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-includes/js/jquery/jquery-migrate.min.js" defer="defer"></script>
+<script type="text/javascript" src="https://code.highcharts.com/highcharts.js" defer="defer"></script>
+<script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js" defer="defer"></script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-content/plugins/summonpress-footer-universal-v1.0.1/public/js/summonpress-footer-universal-public.js" defer="defer"></script>
+<link rel="https://api.w.org/" href="https://es.calcuworld.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://es.calcuworld.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://es.calcuworld.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.4.1">
+<link rel="shortlink" href="https://es.calcuworld.com/">
+<link rel="alternate" type="application/json+oembed" href="https://es.calcuworld.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.calcuworld.com%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://es.calcuworld.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.calcuworld.com%2F&amp;format=xml">
+<link rel="stylesheet" type="text/css" href="https://es.calcuworld.com/wp-content/plugins/microkids-related-posts/microkids-related-posts-default.css">
+<script type="text/javascript">var essb_settings = {"ajax_url":"https:\/\/es.calcuworld.com\/wp-admin\/admin-ajax.php","essb3_nonce":"d9fe28aa94","essb3_plugin_url":"https:\/\/es.calcuworld.com\/wp-content\/plugins\/easy-social-share-buttons3","essb3_facebook_total":true,"essb3_admin_ajax":false,"essb3_internal_counter":false,"essb3_stats":true,"essb3_ga":true,"essb3_ga_mode":"simple","essb3_counter_button_min":0,"essb3_counter_total_min":0,"blog_url":"https:\/\/es.calcuworld.com\/","ajax_type":"wp","essb3_postfloat_stay":false,"essb3_no_counter_mailprint":false,"essb3_single_ajax":false,"twitter_counter":"self","post_id":28};</script>    <link rel="preload" href="https://adservice.google.com.co/adsid/integrator.js?domain=es.calcuworld.com" as="script"><script type="text/javascript" src="https://adservice.google.com.co/adsid/integrator.js?domain=es.calcuworld.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=es.calcuworld.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=es.calcuworld.com"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020052101.js" async=""></script><link rel="prefetch" href="https://fe0cfb5a1441056f1d1a6f4476dd47b4.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><script src="https://static.sunmedia.tv/SMSdk/assets/AdBlockDetection/adblockDetector.min.js"></script><script src="https://static.sunmedia.tv/SMSdk/assets/AdBlockDetection/adblockDetector.min.js"></script><script src="https://js.agkn.com/prod/v0/tag.js" type="text/javascript" async=""></script><script></script><script></script><script></script><script></script><script></script><style id="SMIntext_config_css_a3ffcc0f-de7c-497b-a244-25a4d62ed30e" type="text/css">.SMIntext-reference-a3ffcc0f-de7c-497b-a244-25a4d62ed30e{background-color:#e7e7e7;position:relative;width:100%;float:left; z-Index:1;margin-top:10px;margin-bottom:20px;}.SMIntext-reminder-a3ffcc0f-de7c-497b-a244-25a4d62ed30e{width:100%;}.SMIntext-loading {z-index: 18;position: absolute;top: 50%;left: 50%;margin-top: -32px;margin-left: -32px;height: 64px;width: 64px;display: none;}.SMIntext-loading div {box-sizing: border-box;display: block;position: absolute;width: 51px;height: 51px;margin: 6px;border: 6px solid;border-radius: 50%;animation: SMLoading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;border-color: #ff8f00 transparent transparent transparent;}.SMIntext-loading div:nth-child(1) { animation-delay: -0.45s; }.SMIntext-loading div:nth-child(2) { animation-delay: -0.3s; }.SMIntext-loading div:nth-child(3) { animation-delay: -0.15s; }@keyframes SMLoading { 0% {transform: rotate(0deg);} 100% {transform: rotate(360deg); }}</style><link id="SMPlayer_d" href="https://static.sunmedia.tv/SMSdk/css/SMVast/SMPlayer_d.css?v=2020040701" rel="stylesheet" type="text/css"><script src="https://js.agkn.com/prod/v0/tag.js" type="text/javascript" async=""></script><script></script><script></script><script></script><script></script><script></script><style type="text/css" id="av_css_id">#nonl-container *{display:block;} #av-container *::-webkit-media-controls-panel{display:none!important;-webkit-appearance:none}#av-container *::--webkit-media-controls-play-button{display:none !important;-webkit-appearance:none}#av-container *::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none}@-webkit-keyframes "fade-in"{0%{opacity:0;filter:alpha(opacity=0);}100%{opacity:1;filter:alpha(opacity=100);}}@-moz-keyframes "fade-in"{0%{opacity:0;filter:alpha(opacity=0);}100%{opacity:1;filter:alpha(opacity=100);}}@-o-keyframes fade-in{0% { opacity:0;filter:alpha(opacity=0)}100%{opacity:1;filter:alpha(opacity=100)}}@keyframes "fade-in"{0%{opacity:0;filter:alpha(opacity=0);}100%{opacity:1;filter:alpha(opacity=100);}}@-webkit-keyframes "av-loading-dash"{0%{stroke-dasharray:1, 210;stroke-dashoffset:0;}50%{stroke-dasharray:130, 220;stroke-dashoffset:-50;}100%{stroke-dasharray:170, 220;stroke-dashoffset:-210;}}@-moz-keyframes "av-loading-dash"{0%{stroke-dasharray:1, 210;stroke-dashoffset:0;}50%{stroke-dasharray:130, 220;stroke-dashoffset:-50;}100%{stroke-dasharray:170, 220;stroke-dashoffset:-210;}}@-o-keyframes av-loading-dash{0% { stroke-dasharray:1, 210;stroke-dashoffset:0}50%{stroke-dasharray:130, 220;stroke-dashoffset:-50}100%{stroke-dasharray:170, 220;stroke-dashoffset:-210}}@keyframes "av-loading-dash"{0%{stroke-dasharray:1, 210;stroke-dashoffset:0;}50%{stroke-dasharray:130, 220;stroke-dashoffset:-50;}100%{stroke-dasharray:170, 220;stroke-dashoffset:-210;}}@-webkit-keyframes "av-loading-rotate"{0%{stroke:white;-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{stroke:currentColor;-webkit-transform:rotate(360deg);transform:rotate(360deg);}}@-moz-keyframes "av-loading-rotate"{0%{stroke:white;-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{stroke:currentColor;-webkit-transform:rotate(360deg);transform:rotate(360deg);}}@-o-keyframes av-loading-rotate{0% { stroke:white;-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{stroke:currentColor;-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes "av-loading-rotate"{0%{stroke:white;-webkit-transform:rotate(0deg);transform:rotate(0deg);}100%{stroke:currentColor;-webkit-transform:rotate(360deg);transform:rotate(360deg);}}#av-container{position:relative;width:640px;height:360px;background:black;margin:0;overflow:hidden;text-align:initial;}#av-container #av-inner{position:absolute;top:0;left:0;width:100%;height:100%}#av-container #av-inner #slot{position:absolute;width:100%;height:100%;background:black;-webkit-box-shadow:inset 0 0 0 1px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 0 0 1px rgba(0, 0, 0, 0.1);box-shadow:inset 0 0 0 1px rgba(0, 0, 0, 0.1)}#av-container #av-inner #slot #preloader{width:0;height:0;position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;outline:none}#av-container #av-inner #slot #preloader svg{position:absolute;top:50%;left:50%}#av-container #av-inner #slot #preloader svg.icon{fill:white;width:50px;height:50px;margin-left:-25px;margin-top:-25px}#av-container #av-inner #slot #preloader svg.circle{fill:transparent;stroke:rgba(255, 255, 255, 0.2);stroke-width:3;width:70px;height:70px;margin-left:-35px;margin-top:-35px}#av-container #av-inner #slot #preloader svg.circle.active{color:red;stroke:white;stroke-linecap:round;animation:av-loading-dash 2s ease infinite, av-loading-rotate 2.5s linear infinite}#av-container #av-inner #slot #videoslot{text-align:left;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);left:0;right:0;bottom:0;width:100%;object-fit:initial;opacity:0;filter:alpha(opacity=0)}#av-container #av-inner #slot #videoslot.loaded{opacity:1;filter:alpha(opacity=100);-webkit-animation:fade-in 0.5s ease;-moz-animation:fade-in 0.5s ease;-o-animation:fade-in 0.5s ease;animation:fade-in 0.5s ease}#av-container #av-inner #gui:before{content:"";pointer-events:none;position:absolute;left:0;bottom:0;width:100%;height:15%;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out;background:-webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);background:-moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);background:linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 100%);filter:progid: DXImageTransform.Microsoft.gradient(startColorstr="#00000000", endColorstr="#80000000", GradientType=0)}#av-container #av-inner #gui #timeline{position:absolute;height:10px;overflow:hidden;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out;cursor:pointer}#av-container #av-inner #gui #timeline:before,#av-container #av-inner #gui #timeline #timeline-buffer,#av-container #av-inner #gui #timeline #timeline-moveto,#av-container #av-inner #gui #timeline #timeline-progress{position:absolute;left:0;height:2px}#av-container #av-inner #gui #timeline:before{content:"";width:100%;background:rgb(100, 100, 100);background:rgba(255, 255, 255, 0.3);-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1);box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1)}#av-container #av-inner #gui #timeline #timeline-buffer{width:0;background:rgb(180, 180, 180);background:rgba(255, 255, 255, 0.5);-webkit-box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1);-moz-box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1);box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.1)}#av-container #av-inner #gui #timeline #timeline-moveto{width:0;background:rgb(255, 255, 255);background:rgba(255, 255, 255, 0.8);opacity:0}#av-container #av-inner #gui #timeline #timeline-progress{width:0;background:red}#av-container #av-inner #gui #timeline.av-overlay{bottom:41px;left:10px;right:10px}#av-container #av-inner #gui #timeline.av-overlay:before,#av-container #av-inner #gui #timeline.av-overlay #timeline-buffer,#av-container #av-inner #gui #timeline.av-overlay #timeline-moveto,#av-container #av-inner #gui #timeline.av-overlay #timeline-progress{top:50%;margin-top:-1px}#av-container #av-inner #gui #timeline.av-bottom{bottom:0;left:0;right:0}#av-container #av-inner #gui #timeline.av-bottom:before,#av-container #av-inner #gui #timeline.av-bottom #timeline-buffer,#av-container #av-inner #gui #timeline.av-bottom #timeline-moveto,#av-container #av-inner #gui #timeline.av-bottom #timeline-progress{top:auto;bottom:0}#av-container #av-inner #gui #timeline.av-top{top:0;left:0;right:0}#av-container #av-inner #gui #timeline.av-top:before,#av-container #av-inner #gui #timeline.av-top #timeline-buffer,#av-container #av-inner #gui #timeline.av-top #timeline-moveto,#av-container #av-inner #gui #timeline.av-top #timeline-progress{top:0;bottom:auto}#av-container #av-inner #gui #timeline.av-top~#skip-btn{top:2px}#av-container #av-inner #gui #timeline.av-top~#aniview-credit{top:4px}#av-container #av-inner #gui #timeline.av-none{opacity:0 !important;display:none !important}#av-container #av-inner #gui #buttons{-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out}#av-container #av-inner #gui #buttons #sound:after{content:"";position:absolute;top:-10px;bottom:-10px;left:-10px;right:-10px;}#av-container #av-inner #gui #buttons #play-pause:after{content:"";position:absolute;top:-10px;bottom:-10px;left:-10px;right:-10px;}#av-container #av-inner #gui #buttons #play-pause,#av-container #av-inner #gui #buttons #phone,#av-container #av-inner #gui #buttons #sound,#av-container #av-inner #gui #buttons #share,#av-container #av-inner #gui #buttons #fullscreen{width:24px;height:24px;background-repeat:no-repeat;background-size:cover}#av-container #av-inner #gui #buttons #left,#av-container #av-inner #gui #buttons #right{position:absolute;height:24px;bottom:11px}#av-container #av-inner #gui #buttons #left{left:13px}#av-container #av-inner #gui #buttons #left>div{position:relative;float:left;margin-right:14px}#av-container #av-inner #gui #buttons #left #play-pause.play{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22play-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%3Cpath%20fill%3D%22white%22%20d%3D%22m19.343%2011.251c-0.035-0.439-0.334-0.874-0.902-1.207l-10.905-6.403c-1.211-0.712-2.203-0.138-2.203%201.275v7.463c5.85-2.36%2013.783-1.163%2014.01-1.128z%22%2F%3E%09%3Cpath%20fill%3D%22white%22%20d%3D%22m5.333%2017v0.762c0%201.412%200.992%201.985%202.203%201.273l10.904-6.402c0.643-0.377%200.941-0.882%200.902-1.379-8.65%200.696-12.404%203.614-14.009%205.746z%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #left #play-pause.pause{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22pause-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpath%20fill%3D%22white%22%20d%3D%22m4.338%2019.339h5v-16h-5v16zm9.001-16.001v16h5v-16h-5z%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #left #play-pause.replay{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22replay-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpath%20fill%3D%22white%22%20d%3D%22m16.672%2011.339c0%202.945-2.389%205.333-5.334%205.333s-5.334-2.388-5.334-5.333c0-2.943%202.385-5.329%205.326-5.333v2.336l7.016-3.503-7.016-3.503v2.004c-4.414%200.004-7.992%203.583-7.992%207.999%200%204.418%203.582%208%208%208s8-3.582%208-8h-2.666z%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #left #phone{width:auto;font-size:0}#av-container #av-inner #gui #buttons #left #phone .icon{width:24px;height:24px;display:inline-block;vertical-align:top;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22phone-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%3Cpath%20fill%3D%22white%22%20clip-rule%3D%22evenodd%22%20d%3D%22m20.154%2017.236c0.299-0.298%200.254-0.921-0.236-1.188-0.492-0.267-4.518-2.602-4.982-2.138-0.463%200.465-1.447%201.498-2.135%201.188s-2.289-1.816-2.846-2.375c-0.559-0.557-2.064-2.159-2.377-2.847-0.31-0.687%200.725-1.67%201.188-2.134%200.464-0.465-1.87-4.491-2.137-4.982-0.266-0.489-0.889-0.534-1.188-0.237s-2.18%202.176-2.85%202.847c-0.671%200.671-0.279%205.415%204.514%2010.202%204.787%204.792%209.531%205.185%2010.203%204.514%200.671-0.671%202.549-2.551%202.846-2.85z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-size:cover}#av-container #av-inner #gui #buttons #left #phone #phone-num{display:inline-block;margin-left:4px;height:24px;line-height:24px;font-size:12px;font-weight:400;font-family:Helvetica, Arial, fallback, sans-serif;color:white}#av-container #av-inner #gui #buttons #right{right:13px}#av-container #av-inner #gui #buttons #right>div{position:relative;float:right;margin-left:14px}#av-container #av-inner #gui #buttons #right #sound{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22sound-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.68%2022.68%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.68%2022.68%22%3E%09%09%3Cpolygon%20fill%3D%22white%22%20points%3D%227.247%207.34%201.761%207.34%201.761%2015.34%207.247%2015.34%2012.743%2019.346%2012.743%203.334%22%20clip-rule%3D%22evenodd%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #right #sound div{position:absolute;width:100%;height:100%;top:0;left:0;background-repeat:no-repeat;background-size:cover}#av-container #av-inner #gui #buttons #right #sound div.on{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22sound-on-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpath%20fill%3D%22white%22%20d%3D%22m17.808%204.757l-1.705%201.881c1.357%201.146%202.221%202.824%202.221%204.7s-0.863%203.556-2.221%204.701l1.705%201.881c1.902-1.605%203.109-3.955%203.109-6.582%200-2.626-1.207-4.975-3.109-6.581z%22%20%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #right #sound div.off{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22sound-off-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpolygon%20points%3D%2220.009%2011.337%2022.671%208.674%2021.343%207.345%2018.679%2010.007%2016.015%207.345%2014.685%208.674%2017.349%2011.337%2014.681%2014.003%2016.015%2015.331%2018.679%2012.666%2021.343%2015.331%2022.677%2014.003%22%20fill%3D%22red%22%20clip-rule%3D%22evenodd%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #right #share{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22share-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%3Cpath%20fill%3D%22white%22%20clip-rule%3D%22evenodd%22%20d%3D%22m17.338%2014.339c-0.695%200-1.328%200.246-1.838%200.645l-7.17-3.567c0-0.026%200.008-0.051%200.008-0.078%200-0.026-0.008-0.052-0.008-0.078l7.17-3.566c0.51%200.397%201.143%200.645%201.838%200.645%201.656%200%203-1.343%203-3s-1.344-3-3-3-3%201.343-3%203c0%200.188%200.023%200.372%200.057%200.552l-6.864%203.412c-0.549-0.591-1.324-0.966-2.193-0.966-1.656%200-3%201.343-3%203s1.344%203%203%203c0.869%200%201.645-0.375%202.193-0.965l6.863%203.412c-0.033%200.18-0.057%200.363-0.057%200.553%200%201.656%201.344%203%203%203s3-1.344%203-3-1.343-2.999-2.999-2.999z%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #right #fullscreen.off{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22fullscreen-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpath%20fill%3D%22white%22%20d%3D%22m4.339%2015.339h-2v5h5v-2h-3v-3zm-2-8.001h2v-3h3v-2h-5v5zm13-5v2h3v3h2v-5h-5zm3%2016.001h-3v2h5v-5h-2v3z%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #buttons #right #fullscreen.on{background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22fullscreen-off-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpath%20fill%3D%22white%22%20d%3D%22m6.338%206.338h-3v2h5v-5h-2v3zm-3%2010.001h3v3h2v-5h-5v2zm11%203h2v-3h3v-2h-5v5zm2-13.001v-3h-2v5h5v-2h-3z%22%2F%3E%3C%2Fsvg%3E")}#av-container #av-inner #gui #big-play{display:none;position:absolute;width:68px;height:68px;top:50%;left:50%;margin-top:-34px;margin-left:-34px;background-color:rgb(50, 50, 50);background-color:rgba(0, 0, 0, 0.4);background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22play-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%3Cpath%20fill%3D%22white%22%20d%3D%22m19.343%2011.251c-0.035-0.439-0.334-0.874-0.902-1.207l-10.905-6.403c-1.211-0.712-2.203-0.138-2.203%201.275v7.463c5.85-2.36%2013.783-1.163%2014.01-1.128z%22%2F%3E%09%3Cpath%20fill%3D%22white%22%20d%3D%22m5.333%2017v0.762c0%201.412%200.992%201.985%202.203%201.273l10.904-6.402c0.643-0.377%200.941-0.882%200.902-1.379-8.65%200.696-12.404%203.614-14.009%205.746z%22%2F%3E%3C%2Fsvg%3E");background-size:62% 64%;background-position:16px center;background-repeat:no-repeat;border:3px solid white;border-radius:50%;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out}#av-container #av-inner #gui #close-btn{z-index:9999999;position:absolute;top:0;left:0;width:28px;height:28px;background-color:rgb(50, 50, 50);background-color:rgba(0, 0, 0, 0.4);background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22close-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%09%3Cpolygon%20fill%3D%22white%22%20points%3D%2219.346%205.421%2017.256%203.332%2011.338%209.25%205.42%203.332%203.332%205.421%209.25%2011.338%203.332%2017.257%205.42%2019.345%2011.338%2013.427%2017.256%2019.345%2019.346%2017.257%2013.428%2011.338%22%20clip-rule%3D%22evenodd%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E");background-repeat:no-repeat;background-size:60%;background-position:center;border-color:white;border-style:solid;border-width:0 1px 1px 0;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out}#av-container #av-inner #gui #timer{position:absolute;top:0;left:0;width:28px;height:28px;background-color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0.7);color:white;font-family:Helvetica, Arial, fallback, sans-serif;font-size:12px;text-align:center;line-height:28px;border-color:white;border-style:solid;border-width:0 1px 1px 0;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out}#av-container #av-inner #gui #skip-btn{position:absolute;bottom:60px;right:0;padding:0 12px;height:32px;background-color:rgb(50, 50, 50);background-color:rgba(0, 0, 0, 0.4);color:white;font-family:Helvetica, Arial, fallback, sans-serif;font-size:14px;text-align:center;text-transform:uppercase;line-height:32px;border-color:white;border-style:solid;border-width:1px 0 1px 1px;-webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out}#av-container #av-inner #gui #aniview-credit{position:absolute;top:2px;right:2px;height:24px;line-height:24px;font-size:11px;font-family:Helvetica, Arial, fallback, sans-serif;font-weight:500;color:white}#av-container #av-inner #gui #aniview-credit span{display:inline-block;vertical-align:top;width:24px;height:24px;background-repeat:no-repeat;background-size:cover;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20id%3D%22play-Layer_1%22%20xml%3Aspace%3D%22preserve%22%20height%3D%2223%22%20viewBox%3D%220%200%2022.677%2022.677%22%20width%3D%2223%22%20version%3D%221.1%22%20y%3D%220px%22%20x%3D%220px%22%20enable-background%3D%22new%200%200%2022.677%2022.677%22%3E%09%3Cpath%20fill%3D%22red%22%20d%3D%22m19.343%2011.251c-0.035-0.439-0.334-0.874-0.902-1.207l-10.905-6.403c-1.211-0.712-2.203-0.138-2.203%201.275v7.463c5.85-2.36%2013.783-1.163%2014.01-1.128z%22%2F%3E%09%3Cpath%20fill%3D%22red%22%20d%3D%22m5.333%2017v0.762c0%201.412%200.992%201.985%202.203%201.273l10.904-6.402c0.643-0.377%200.941-0.882%200.902-1.379-8.65%200.696-12.404%203.614-14.009%205.746z%22%2F%3E%3C%2Fsvg%3E")}#av-container.av-desktop #av-inner #gui #big-play{border-color:#ccc}#av-container.av-desktop:hover #av-inner #gui #big-play{background-color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0.7);border-color:white}#av-container.av-desktop #gui:before{bottom:-15%}#av-container.av-desktop:hover #gui:before{bottom:0}#av-container.av-desktop #gui:before,#av-container.av-desktop #gui #timeline,#av-container.av-desktop #gui #buttons{opacity:0;filter:alpha(opacity=0)}#av-container.av-desktop:hover #gui:before,#av-container.av-desktop:hover #gui #buttons,#av-container.av-desktop:hover #gui #timeline,#av-container.av-desktop #av-inner #gui #timeline:hover #timeline-moveto{opacity:1;filter:alpha(opacity=100)}#av-container.av-desktop #av-inner #gui #close-btn:hover,#av-container.av-desktop #av-inner #gui #skip-btn:hover{cursor:pointer;background-color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0.7)}#av-container.av-responsive{width:100%;height:520px}#av-container.hide-controls #timeline,#av-container.hide-controls #buttons,#av-container.hide-controls #av-inner #gui:before{display:none}#av-container.buttons-below #av-inner #slot #videoslot{top:0;-webkit-transform:none;transform:none}#av-testcss{margin-top:3px}.embed-player-tag #testyourself-postroll-embedgui #av-container{position:relative;top:50%;-webkit-transform:initial !important;transform:initial !important}.testyourself-postroll .embed-player-tag #testyourself-postroll-embedgui #av-container{top:0px}.embed-player-tag #testyourself-postroll-embedgui #av-container{margin-left:auto;margin-right:auto;//margin-top:50px}#testyourself-preroll-embedgui #av-container #av-inner #gui #skip-btn{top:0px}#spotimaniviewplayergui #av-container{//position:inherit} #av-container #videoslot video {max-width: none;} </style><style type="text/css" id="SMStyle_ref_1590534264922">#SMIntext-reference-1590534264922{margin-left:0px;height:30px;width:750px;background-color:rgba(246,246,246,.4);}</style><style type="text/css" id="SMStyle_starting_1590534264922">.SMstarting_1590534264922{position:absolute !important;top:1040px !important;left:129.5px !important;width:750px !important;height:30px !important;}</style><style type="text/css" id="SMStyle_noava_1590534264922">.SMContainer_1590534264922{position:absolute !important;top:1040px !important;left:129.5px !important;width:750px !important;height:30px !important;z-Index:20000}</style><style type="text/css" id="SMStyle_maxmin_1590534264922">.SMMaximize_1590534264922{position:absolute !important; top:1040px !important;left:129.5px !important;width:750px !important;height:30px !important;z-index:11;}.SMMinimize_1590534264922{position:fixed!important;z-Index:900000;width:420px!important;height:315px!important;right:20px;bottom: 60px;}</style></head><body class="home page-template-default page page-id-28 page-parent custom-font-enabled"><span class="date" style="display: none;">2013-02</span>
+    <span class="autor" style="display: none;">admin</span>
+    <span class="type" style="display: none;">page</span>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet" type="text/css">
+    <link rel="icon" href="https://es.calcuworld.com/wp-content/themes/twentytwelve-child/images/cw40.png" type="image/png">
+    <link rel="shortcut icon" href="https://es.calcuworld.com/wp-content/themes/twentytwelve-child/images/cw40.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://es.calcuworld.com/wp-content/themes/twentytwelve-child/images/cw40.png" type="image/vnd.microsoft.icon"><!--The 2010 IANA standard but not supported in IE--> 
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4541639-87', 'auto');
+
+  ga('set', 'contentGroup1', 'page');   ga('set', 'contentGroup2', 'admin');   ga('set', 'contentGroup3', '2013-02');   ga('set', 'contentGroup4', '');   
+  ga('send', 'pageview');
+  
+
+</script>
+
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.10&appId=378707772227213";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ 
+
+
+
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/13837015/CW_desktop_1x1', [1, 1], 'div-gpt-ad-1446806101390-0').addService(googletag.pubads());
+    googletag.defineSlot('/13837015/CW_desktop_head', [[728, 90], [980, 90], [970, 90]], 'div-gpt-ad-1446806101390-1').addService(googletag.pubads());
+    googletag.defineSlot('/13837015/CW_desktop_inf', [[336, 280], [468, 60]], 'div-gpt-ad-1446806101390-2').addService(googletag.pubads());
+    googletag.defineSlot('/13837015/CW_desktop_side', [[300, 600], [300, 250]], 'div-gpt-ad-1446806101390-3').addService(googletag.pubads());
+    googletag.defineSlot('/13837015/CW_desktop_side2', [[300, 600], [300, 250]], 'div-gpt-ad-1446806101390-4').addService(googletag.pubads());
+    googletag.defineSlot('/13837015/CW_desktop_sup', [[728, 90], [468, 60]], 'div-gpt-ad-1446806101390-5').addService(googletag.pubads());
+    googletag.pubads().setTargeting('subdominio', ['es']);
+    googletag.pubads().setTargeting('tematica', ['']);
+    googletag.pubads().setTargeting('ID', ['28']);
+     googletag.pubads().setTargeting('area', ['portada']);     googletag.enableServices();
+  });
+</script>
+
+
+    <!--Finance.js v2.0.1-->
+    <script src="https://www.calcuworld.com/wp-content/themes/twentytwelve-child/js/finance.js"></script>
+
+    
+
+
+
+
+	<script>
+	    dataLayer = [{	    }];
+	</script>
+
+
+
+
+	<script>
+	    dataLayer.push({
+	      'tema': ''
+	   		});
+	</script>
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K7LPKS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7LPKS');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="https://img.lzrikate.com/ads/lz_loader.js?ver=1.3"></script><iframe name="__cmpLocator" style="display: none;"></iframe><div id="bottomAd" style="font-size: 2px;">&nbsp;</div>
+
+<script type="text/javascript" id="" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script type="text/javascript" id="">$(document).ready(function(){window.setTimeout(function(){var a=$("#bottomAd");1==a.length&&(0==a.height()?dataLayer.push({event:"adBlock",adBlockDetected:1}):dataLayer.push({event:"adBlock",adBlockDetected:0}))},1)});</script>
+<div id="ads_YODK9HTQXT6E" style="position: relative;"><script language="javascript" type="text/javascript" src="https://play.lzrikate.com/red/zone.php?code=YODK9HTQXT6E&amp;a=&amp;pubid=&amp;lgid=13963629580.33441933200856844"></script><script>function a(r){try{for(;r.parent&&r!==r.parent;)r=r.parent;return r}catch(r){return null}}var n=a(window);if(n&&n.document&&n.document.body){var s=document.createElement("script");s.src="https://static.sunmedia.tv/integrations/0d5d610e-6cea-4374-a372-1a906bb8c676/0d5d610e-6cea-4374-a372-1a906bb8c676.js",s.async=!0,n.document.body.appendChild(s)}</script>
+<script>function a(r){try{for(;r.parent&&r!==r.parent;)r=r.parent;return r}catch(r){return null}}var n=a(window);if(n&&n.document&&n.document.body){var s=document.createElement("script");s.src="https://static.sunmedia.tv/integrations/a3ffcc0f-de7c-497b-a244-25a4d62ed30e/a3ffcc0f-de7c-497b-a244-25a4d62ed30e.js",s.async=!0,n.document.body.appendChild(s)}</script>
+<script data-adscript="null" src="https://servingcdn.net?uid=5dcdca06f9d5a92e46a33896&amp;w=320&amp;h=100&amp;click="></script>
+</div>
+<script language="javascript" type="text/javascript">
+var lz_url="https://play.lzrikate.com/red/zone.php?code=YODK9HTQXT6E&a=&pubid=&lgid="+((new Date()).getTime() % 2147483648) + Math.random();
+var lz_target = "ads_YODK9HTQXT6E";
+var lz_sync_mode=false;
+lz_loadads(lz_url ,lz_target,lz_sync_mode);
+</script>	<!-- /13837015/CW_desktop_1x1 -->
+<div id="div-gpt-ad-1446806101390-0" data-google-query-id="CM6FndDR0ukCFaY8swAdWaIPpQ">
+<div id="google_ads_iframe_/13837015/CW_desktop_1x1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/13837015/CW_desktop_1x1_0" title="3rd party ad content" name="google_ads_iframe_/13837015/CW_desktop_1x1_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div>
+</div>
+
+<div style="text-align: center">
+<!-- /13837015/CW_desktop_head -->
+<div id="div-gpt-ad-1446806101390-1" data-google-query-id="COy4ndDR0ukCFX394wcdJIoE6Q">
+<div id="google_ads_iframe_/13837015/CW_desktop_head_0__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html" id="google_ads_iframe_/13837015/CW_desktop_head_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div>
+</div>
+</div>
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://es.calcuworld.com/" title="Calculadoras" rel="home">Calculadoras</a></h1>
+			<h2 class="site-description">Herramientas y calculadoras para hacer tu vida más sencilla</h2>
+		</hgroup>
+		
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle">Menú</h3>
+			<a class="assistive-text" href="#content" title="Saltar al contenido">Saltar al contenido</a>
+			<div class="menu-nav-container"><ul id="menu-nav" class="nav-menu"><li id="menu-item-129" class="pregnancy dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-129"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/">Embarazo</a>
+<ul class="sub-menu">
+	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-de-semanas-de-embarazo/">Calculadora de semanas de embarazo</a></li>
+	<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-nino-o-nina/">Calculadora Niño o Niña</a></li>
+	<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-gestacional/">Calculadora Gestacional</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-887"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/gestograma/">Gestograma</a></li>
+	<li id="menu-item-455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-de-crecimiento-fetal/">Tamaño del feto</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-de-fecha-probable-de-parto/">Fecha Probable de Parto</a></li>
+	<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-de-ovulacion/">Calculadora de Ovulación</a></li>
+	<li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-peso-ideal-en-el-embarazo/">Peso Ideal en el Embarazo</a></li>
+	<li id="menu-item-787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-787"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/conversor-de-semanas-a-meses-de-embarazo/">Pasar de semanas a meses</a></li>
+	<li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2010"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/herramienta-para-elegir-el-nombre-del-bebe/">Nombres para bebés</a></li>
+	<li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/calculadora-del-color-de-ojos/">Color de Ojos del bebé</a></li>
+</ul>
+</li>
+<li id="menu-item-133" class="financial menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-133"><a href="https://es.calcuworld.com/calculadoras-financieras/">Finanzas</a>
+<ul class="sub-menu">
+	<li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-de-hipotecas/">Calculadora de hipoteca</a></li>
+	<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-euro-dolar/">Calculadora Euro – Dólar</a></li>
+	<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-euro-libra/">Calculadora Euro – Libra</a></li>
+	<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-iva/">Calculadora de IVA</a></li>
+	<li id="menu-item-2798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2798"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-de-iban/">Calculadora IBAN</a></li>
+	<li id="menu-item-1463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1463"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-bitcoin-conversor-btc/">Conversor Bitcoin</a></li>
+</ul>
+</li>
+<li id="menu-item-156" class="maths menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><a href="https://es.calcuworld.com/calculadoras-matematicas/">Matemáticas</a>
+<ul class="sub-menu">
+	<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-cientifica/">Calculadora Científica</a></li>
+	<li id="menu-item-796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-796"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-porcentajes/">Calculadora de porcentajes</a></li>
+	<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-division/">Calculadora de División</a></li>
+	<li id="menu-item-934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-934"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-fracciones/">Calculadora de Fracciones</a></li>
+	<li id="menu-item-777" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-777"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-regla-de-tres/">Calculadora de Regla de Tres</a></li>
+	<li id="menu-item-1878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a href="https://es.calcuworld.com/calculadoras-matematicas/area/">Calculadora de Área</a></li>
+	<li id="menu-item-157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-157"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-de-resto/">Calculadora de resto</a></li>
+	<li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-hexadecimal/">Calculadora hexadecimal</a></li>
+	<li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-751"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-binomial/">Calculadora binomial</a></li>
+	<li id="menu-item-2906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2906"><a href="https://es.calcuworld.com/calculadoras-matematicas/descuentos/">Calcular descuentos</a></li>
+</ul>
+</li>
+<li id="menu-item-191" class="business menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191"><a href="https://es.calcuworld.com/calculadoras-empresariales/">Empresa</a>
+<ul class="sub-menu">
+	<li id="menu-item-573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-573"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-bruto-neto/">Salario neto</a></li>
+	<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-de-finiquito/">Calculadora de finiquito</a></li>
+	<li id="menu-item-605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-605"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-de-jubilacion/">Edad de Jubilación</a></li>
+	<li id="menu-item-1441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1441"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-de-sueldo-neto-para-autonomos/">Sueldo Neto autónomos</a></li>
+	<li id="menu-item-1442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1442"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-de-paro-para-autonomos/">Paro autónomos</a></li>
+	<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="https://es.calcuworld.com/informatica/calculadora-de-bytes/">Calculadora de Bytes</a></li>
+	<li id="menu-item-1618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1618"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-van/">Calculadora VAN</a></li>
+	<li id="menu-item-1617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1617"><a href="https://es.calcuworld.com/calculadoras-empresariales/calculadora-tir/">Calculadora TIR</a></li>
+</ul>
+</li>
+<li id="menu-item-139" class="sport menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-139"><a href="https://es.calcuworld.com/deporte-y-ejercicio/">Deporte</a>
+<ul class="sub-menu">
+	<li id="menu-item-769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-769"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-tiempos-carreras/">Calculadora de Running</a></li>
+	<li id="menu-item-2985" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2985"><a href="https://es.calcuworld.com/cronometro/">Cronómetro</a></li>
+	<li id="menu-item-652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-652"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-calorias-diarias/">Calorías diarias recomendadas</a></li>
+	<li id="menu-item-653" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-653"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-calorias-quemadas/">Calorías quemadas</a></li>
+	<li id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-654"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calcular-frecuencia-cardiaca/">Frecuencia Cardíaca</a></li>
+	<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-imc/">Calculadora de IMC</a></li>
+	<li id="menu-item-1055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1055"><a href="https://es.calcuworld.com/deporte-y-ejercicio/test-de-abdominales/">Test de abdominales</a></li>
+	<li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1054"><a href="https://es.calcuworld.com/deporte-y-ejercicio/test-de-flexiones-de-brazos/">Test de flexiones</a></li>
+	<li id="menu-item-2106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2106"><a href="https://es.calcuworld.com/deporte-y-ejercicio/frases-de-motivacion/">Frases de motivación</a></li>
+</ul>
+</li>
+<li id="menu-item-144" class="entertainment menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-144"><a href="https://es.calcuworld.com/ocio/">Ocio</a>
+<ul class="sub-menu">
+	<li id="menu-item-3708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3708"><a href="https://es.calcuworld.com/horoscopo/">Horóscopo</a></li>
+	<li id="menu-item-4539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4539"><a href="https://es.calcuworld.com/ocio/significado-de-los-suenos/">Significado de los sueños</a></li>
+	<li id="menu-item-1583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1583"><a href="https://es.calcuworld.com/ocio/calculadora-de-compatibilidad-entre-signos/">Compatibilidad Signos Zodíaco</a></li>
+	<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="https://es.calcuworld.com/ocio/calculadora-del-horoscopo-chino/">Horóscopo Chino</a></li>
+	<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-450"><a href="https://es.calcuworld.com/ocio/calcular-signo-del-horoscopo-maya-calendario-haab/">Horóscopo Maya</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="https://es.calcuworld.com/ocio/calculadora-del-signo-del-zodiaco/">Signo del Zodiaco</a></li>
+	<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://es.calcuworld.com/ocio/calculadora-del-compatibilidad-en-el-amor/">Compatibilidad en el Amor</a></li>
+	<li id="menu-item-1951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1951"><a href="https://es.calcuworld.com/ocio/numerologia/">Numerología</a></li>
+	<li id="menu-item-1949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1949"><a href="https://es.calcuworld.com/ocio/numerologia/calcular-numero-de-la-suerte/">Número de la suerte</a></li>
+	<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-esperanza-de-vida/">Esperanza de vida</a></li>
+	<li id="menu-item-4950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4950"><a target="_blank" rel="noopener noreferrer" href="http://www.milejemplos.com/frases/frases-de-amor">Frases de Amor</a></li>
+</ul>
+</li>
+<li id="menu-item-295" class="savings menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-295"><a href="https://es.calcuworld.com/ahorro/">Ahorro</a>
+<ul class="sub-menu">
+	<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="https://es.calcuworld.com/ahorro/calculadora-de-consumo-electrico/">Calculadora de Consumo Eléctrico</a></li>
+	<li id="menu-item-1645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1645"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-de-endeudamiento/">Calcular ahorro mensual</a></li>
+	<li id="menu-item-1346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346"><a href="https://es.calcuworld.com/salud/calculadora-de-gasto-de-tabaco/">Gasto en tabaco</a></li>
+	<li id="menu-item-1637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1637"><a href="https://es.calcuworld.com/calculadoras-financieras/conversor-tae-tin/">Conversor TAE – TIN</a></li>
+</ul>
+</li>
+<li id="menu-item-2820" class="calendar menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2820"><a href="https://es.calcuworld.com/calendarios/">Calendarios</a>
+<ul class="sub-menu">
+	<li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a href="https://es.calcuworld.com/calendarios/calcular-dia-de-la-semana/">Calcular día de la semana</a></li>
+	<li id="menu-item-804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-804"><a href="https://es.calcuworld.com/calendarios/calculadora-de-tiempo-entre-dos-fechas/">Tiempo entre dos fechas</a></li>
+	<li id="menu-item-2832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832"><a href="https://es.calcuworld.com/calendarios/crear/">Calendario online</a></li>
+	<li id="menu-item-2875" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2875"><a href="https://es.calcuworld.com/religion/santoral/">Santoral</a></li>
+</ul>
+</li>
+<li id="menu-item-660" class="animals menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-660"><a href="https://es.calcuworld.com/calculadoras-para-animales/">Animales</a>
+<ul class="sub-menu">
+	<li id="menu-item-2027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2027"><a href="https://es.calcuworld.com/calculadoras-para-animales/nombres-de-perros/">Nombres de perros</a></li>
+	<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661"><a href="https://es.calcuworld.com/calculadoras-para-animales/calculadora-de-embarazo-del-perro/">Embarazo del perro</a></li>
+	<li id="menu-item-662" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-662"><a href="https://es.calcuworld.com/calculadoras-para-animales/calcula-la-edad-de-tu-perro/">Edad del perro</a></li>
+	<li id="menu-item-1915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1915"><a href="https://es.calcuworld.com/calculadoras-para-animales/calculadora-de-razas-de-perro/">Razas de Perro</a></li>
+	<li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="https://es.calcuworld.com/calculadoras-para-animales/calcula-la-edad-de-tu-gato/">Edad de tu gato</a></li>
+	<li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1914"><a href="https://es.calcuworld.com/calculadoras-para-animales/calculadora-de-razas-de-gato/">Razas de Gato</a></li>
+</ul>
+</li>
+<li id="menu-item-2556" class="converter menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2556"><a target="_blank" rel="noopener noreferrer" href="https://es.justcnw.com?utm_source=calcuworld.com&amp;utm_medium=Network&amp;utm_campaign=navbar">Conversores</a>
+<ul class="sub-menu">
+	<li id="menu-item-2563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2563"><a target="_blank" rel="noopener noreferrer" href="https://es.justcnw.com/temperatura?utm_source=calcuworld.com&amp;utm_medium=Network&amp;utm_campaign=navbar">Conversor de temperaturas</a></li>
+	<li id="menu-item-1283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1283"><a href="https://es.calcuworld.com/conversores/conversor-de-husos-horarios/">Conversor de husos horarios</a></li>
+	<li id="menu-item-938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-938"><a href="https://es.calcuworld.com/conversores/conversor-de-kilometros-a-millas/">Conversor de kilómetros a millas</a></li>
+	<li id="menu-item-2570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2570"><a target="_blank" rel="noopener noreferrer" href="https://es.justcnw.com/tallas?utm_source=calcuworld.com&amp;utm_medium=Network&amp;utm_campaign=navbar">Conversor Tallas de ropa</a></li>
+</ul>
+</li>
+<li id="menu-item-1229" class="nutritional menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1229"><a href="https://es.calcuworld.com/calculadora-nutricional/">Nutrición</a>
+<ul class="sub-menu">
+	<li id="menu-item-1230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1230"><a href="https://es.calcuworld.com/calculadora-nutricional/calculadora-de-peso-ideal/">Peso Ideal</a></li>
+</ul>
+</li>
+<li id="menu-item-6321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6321"><a href="https://es.justexw.com?utm_source=es.calcuworld.com&amp;utm_medium=nav&amp;utm_campaign=seo_sp">EXCEL</a>
+<ul class="sub-menu">
+	<li id="menu-item-4486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4486"><a target="_blank" rel="noopener noreferrer" href="https://es.justexw.com/funciones-de-excel?utm_source=es.calcuworld.com&amp;utm_medium=nav&amp;utm_campaign=seo_sp">Funciones</a></li>
+</ul>
+</li>
+</ul></div>		</nav><!-- #site-navigation -->
+    
+		
+	</header><!-- #masthead -->
+	<div id="main" class="wrapper" style="overflow: hidden;">
+		
+<div style="text-align: center; margin: 10px 0;"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CW_links -->
+<ins class="adsbygoogle" style="display: block; height: 90px; background-color: white;" data-ad-client="ca-pub-1879349339774425" data-ad-slot="3624556348" data-ad-format="link" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display: inline-table; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 937px; background-color: white;"><ins id="aswift_0_anchor" style="display: block; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 937px; background-color: white;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:937px;height:90px;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="937" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1879349339774425&amp;output=html&amp;h=90&amp;slotname=3624556348&amp;adk=2491545357&amp;adf=567825866&amp;w=937&amp;fwrn=4&amp;lmt=1590534263&amp;rafmt=10&amp;psa=0&amp;guci=2.2.0.0.2.2.0.0&amp;us_privacy=1---&amp;format=937x90_0ads_al&amp;url=https%3A%2F%2Fes.calcuworld.com%2F&amp;flash=0&amp;fwr=0&amp;wgl=1&amp;adsid=NT&amp;dt=1590534262746&amp;bpp=84&amp;bdt=13550&amp;idt=861&amp;shv=r20200520&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dec46a3cc36a5f217%3AT%3D1590534200%3AS%3DALNI_Mb3OdzGue5fjlSoS2VbfDkTM2QgPg&amp;crv=1&amp;correlator=3146842296994&amp;frm=20&amp;pv=2&amp;ga_vid=1328642008.1590534251&amp;ga_sid=1590534263&amp;ga_hid=1294331944&amp;ga_fc=0&amp;iag=0&amp;icsg=567283206367487&amp;dssz=60&amp;mdo=0&amp;mso=0&amp;u_tz=-300&amp;u_his=2&amp;u_java=0&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=40&amp;ady=350&amp;biw=1017&amp;bih=576&amp;scr_x=0&amp;scr_y=0&amp;eid=21066085&amp;oid=3&amp;pvsid=338091939490201&amp;pem=988&amp;rx=0&amp;eae=0&amp;fc=896&amp;brdim=10%2C10%2C10%2C10%2C1366%2C0%2C1050%2C708%2C1034%2C576&amp;vis=1&amp;rsz=%7C%7CoeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=8336&amp;bc=31&amp;ifi=4&amp;uci=a!4&amp;fsb=1&amp;xpc=P4GVL26c9G&amp;p=https%3A//es.calcuworld.com&amp;dtd=913" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!4" data-google-query-id="CLK15tDR0ukCFcF4wQodppMERQ" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+	
+	<div id="primary" class="site-content">
+		
+		<div id="content" role="main"><div style="visibility: hidden; width: 1px; height: 1px; overflow: hidden; margin: 0px auto; padding: 0px;"><div id="1590534274299820689580" style="background-color: rgb(0, 0, 0); width: 640px; height: 360px; overflow: hidden; margin: 0px; padding: 0px; line-height: 0px; vertical-align: top; border: 0px; font-size: 0px; position: relative; left: 0px; top: 0px; text-align: center; display: table-cell; background-image: url(&quot;data:image/png;base64,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&quot;); background-size: 40px; background-position: center center; background-repeat: no-repeat;"></div></div>
+									
+	<article id="post-28" class="post-28 page type-page status-publish has-post-thumbnail hentry">
+		<header class="entry-header">
+			<h1 class="entry-title">Calculadoras Online</h1>
+		</header>
+
+		<div class="entry-content">
+			<div class="excerpt"><p>En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo…</p>
+<div style="text-align: center; margin: 10px -10px;">
+<!-- /13837015/CW_desktop_sup --><p></p>
+<div id="div-gpt-ad-1446806101390-5" data-google-query-id="CI7iptDR0ukCFWo8swAdkFULVw">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1446806101390-5'); });
+</script><div id="google_ads_iframe_/13837015/CW_desktop_sup_0__container__" style="border: 0pt none; width: 728px; height: 90px;"></div>
+</div>
+</div>
+</div>
+															
+<div style="text-align: center; margin: 10px 0;"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CW_links -->
+<ins class="adsbygoogle" style="display: block; height: 90px; background-color: white;" data-ad-client="ca-pub-1879349339774425" data-ad-slot="3624556348" data-ad-format="link" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display: inline-table; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 750px; background-color: white;"><ins id="aswift_1_anchor" style="display: block; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 750px; background-color: white;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:750px;height:90px;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="750" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1879349339774425&amp;output=html&amp;h=90&amp;slotname=3624556348&amp;adk=814200315&amp;adf=148716282&amp;w=750&amp;fwrn=4&amp;lmt=1590534263&amp;rafmt=10&amp;psa=0&amp;guci=2.2.0.0.2.2.0.0&amp;us_privacy=1---&amp;format=750x90_0ads_al&amp;url=https%3A%2F%2Fes.calcuworld.com%2F&amp;flash=0&amp;fwr=0&amp;wgl=1&amp;adsid=NT&amp;dt=1590534262830&amp;bpp=17&amp;bdt=13635&amp;idt=991&amp;shv=r20200520&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dec46a3cc36a5f217%3AT%3D1590534200%3AS%3DALNI_Mb3OdzGue5fjlSoS2VbfDkTM2QgPg&amp;crv=1&amp;prev_fmts=937x90_0ads_al&amp;correlator=3146842296994&amp;frm=20&amp;pv=1&amp;ga_vid=1328642008.1590534251&amp;ga_sid=1590534263&amp;ga_hid=1294331944&amp;ga_fc=0&amp;iag=0&amp;icsg=567283206367487&amp;dssz=60&amp;mdo=0&amp;mso=0&amp;u_tz=-300&amp;u_his=2&amp;u_java=0&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=40&amp;ady=703&amp;biw=1017&amp;bih=576&amp;scr_x=0&amp;scr_y=0&amp;eid=21066085&amp;oid=3&amp;pvsid=338091939490201&amp;pem=988&amp;rx=0&amp;eae=0&amp;fc=896&amp;brdim=10%2C10%2C10%2C10%2C1366%2C0%2C1050%2C708%2C1034%2C576&amp;vis=1&amp;rsz=%7C%7CoeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=8336&amp;bc=31&amp;ifi=5&amp;uci=a!5&amp;btvi=1&amp;fsb=1&amp;xpc=i89OVDBBhW&amp;p=https%3A//es.calcuworld.com&amp;dtd=1004" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!5" data-load-complete="true" data-google-query-id="CMHG7dDR0ukCFQUdoQod3twNUg"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+<div class="essb_links essb_counters essb_displayed_top essb_share essb_template_flat-retina essb_1609244451 print-no" id="essb_displayed_top_1609244451" data-essb-postid="28" data-essb-position="top" data-essb-button-style="button" data-essb-template="flat-retina" data-essb-counter-pos="inside" data-essb-url="https://es.calcuworld.com/" data-essb-twitter-url="https://es.calcuworld.com/" data-essb-instance="1609244451"><ul class="essb_links_list"><li class="essb_item essb_totalcount_item" data-counter-pos="inside"><span class="essb_totalcount essb_t_l_big " title="" data-shares-text="social"><span class="essb_t_nb">372<span class="essb_t_nb_after">social</span></span></span></li><li class="essb_item essb_link_facebook nolightbox" style="list-style: none;"> <a href="https://www.facebook.com/dialog/feed?app_id=378707772227213&amp;display=popup&amp;name=Calculadoras+Online&amp;link=https://es.calcuworld.com/&amp;redirect_uri=https://www.facebook.com&amp;picture=https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png&amp;description=En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo..." title="" onclick="essb_window('https://www.facebook.com/dialog/feed?app_id=378707772227213&amp;display=popup&amp;name=Calculadoras+Online&amp;link=https://es.calcuworld.com/&amp;redirect_uri=https://www.facebook.com&amp;picture=https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png&amp;description=En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo...','facebook_advanced','1609244451'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_facebook"></span><span class="essb_network_name"></span></a></li><li class="essb_item essb_link_twitter nolightbox" style="list-style: none;"> <a href="#" title="" onclick="essb_window('https://twitter.com/intent/tweet?text=Calculadoras+Online&amp;url=https://es.calcuworld.com/&amp;counturl=https://es.calcuworld.com/','twitter','1609244451'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_twitter"></span><span class="essb_network_name"><span class="essb_counter_inside" cnt="372">372</span></span></a></li><li class="essb_item essb_link_google nolightbox" style="list-style: none;"> <a href="https://plus.google.com/share?url=https://es.calcuworld.com/" title="" onclick="essb_window('https://plus.google.com/share?url=https://es.calcuworld.com/','google','1609244451'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_google"></span><span class="essb_network_name"><span class="essb_counter_inside" cnt="0">0</span></span></a></li></ul></div><p>En esta página encontrarás multitud de herramientas y calculadoras online con las que podrás aprender mucho sobre los más diversos temas. Calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo…</p>
+<p>Nuestras calculadoras online abarcan los ámbitos más diversos, pero siempre con un mismo objetivo: hacerte la vida más sencilla.</p>
+<h3>Calculadoras y herramientas por tema</h3>
+<div id="SMIntext-effective-1590534264922" class="SMIntext-effective SMIntext-effective-a3ffcc0f-de7c-497b-a244-25a4d62ed30e desktop" style="position:relative;width:100%;height:1px;"></div><div id="SMIntext-reference-1590534264922" class="SMIntext-reference SMIntext-reference-a3ffcc0f-de7c-497b-a244-25a4d62ed30e desktop"><div id="SMIntext-loading-1590534264922" class="SMIntext-loading SMIntext-loading-a3ffcc0f-de7c-497b-a244-25a4d62ed30e desktop"><div></div><div></div><div></div><div></div></div></div><div id="SMIntext-clearfix-1590534264922" class="SMIntext-clearfix SMIntext-clearfix-a3ffcc0f-de7c-497b-a244-25a4d62ed30e desktop" style="display:block;clear:both;content:&quot;&quot;;"></div><p>Pulsa sobre cualquiera de nuestras 20 áreas temáticas para acceder a las herramientas.</p>
+<div id="areas">
+<div class="col-md-3 col-xs-6"><a class="calculator-img matematicas" href="https://es.calcuworld.com/calculadoras-matematicas/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Matemáticas</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img finanzas" href="https://es.calcuworld.com/calculadoras-financieras/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Finanzas</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img embarazo" href="https://es.calcuworld.com/calculadoras-de-embarazo/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Embarazo</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img ocio" href="https://es.calcuworld.com/ocio/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Ocio</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img empresa" href="https://es.calcuworld.com/calculadoras-empresariales/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Empresa</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img calendarios" href="https://es.calcuworld.com/calendarios/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Calendarios</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img animales" href="https://es.calcuworld.com/calculadoras-para-animales/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Animales</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img nutricion" href="https://es.calcuworld.com/calculadora-nutricional/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Nutrición</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img deporte" href="https://es.calcuworld.com/deporte-y-ejercicio/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Deporte</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img infantil" href="https://es.calcuworld.com/calculadoras-infantiles/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Infantil</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img conversores" href="https://es.calcuworld.com/conversores/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Conversores</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img informatica" href="https://es.calcuworld.com/informatica/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Informática</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img ahorro" href="https://es.calcuworld.com/ahorro/"><br>
+</a><p></p>
+<div class="ahorro" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Ahorro</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img belleza" href="https://es.calcuworld.com/belleza/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Belleza</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img religion" href="https://es.calcuworld.com/religion/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Religión</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img idiomas" href="https://es.calcuworld.com/idiomas/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Idiomas</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img cocina" href="https://es.calcuworld.com/cocina/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Cocina</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img excel" href="https://es.calcuworld.com/category/calcular-con-excel/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Excel</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img bricolaje" href="https://es.calcuworld.com/bricolaje/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Bricolaje</div>
+</div>
+<div class="col-md-3 col-xs-6"><a class="calculator-img otros" href="https://es.calcuworld.com/otras-calculadoras/"><br>
+</a><p></p>
+<div class="caption" style="text-align: center;margin-bottom: 10px;margin-top: -25px">Otros</div>
+</div>
+</div>
+<div style="text-align: center; margin: 10px -10px; padding: 0;">
+<!-- /13837015/CW_desktop_inf --><p></p>
+<div id="div-gpt-ad-1446806101390-2" data-google-query-id="CNnTu9DR0ukCFfQSswAdGcIAVw">
+<div id="google_ads_iframe_/13837015/CW_desktop_inf_0__container__" style="border: 0pt none; display: inline-block; width: 336px; height: 280px;"><iframe frameborder="0" src="https://fe0cfb5a1441056f1d1a6f4476dd47b4.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html" id="google_ads_iframe_/13837015/CW_desktop_inf_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="336" height="280" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="4" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div>
+</div>
+</div>
+<div class="related-posts">
+<div id="related-posts-MRP_all" class="related-posts-type">
+<h4></h4>
+<ul>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-imc/" class="bg-links">Calculadora de IMC</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-cientifica/" class="bg-links">Calculadora científica</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-para-android/" class="bg-links">Calculadoras para Android</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-para-ipad/" class="bg-links">Calculadoras para iPad</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-para-windows-8/" class="bg-links">Calculadoras para Windows 8</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-de-embarazo/" class="bg-links">Calculadoras de embarazo</a></li>
+<li class="col-xs-12 col-md-4" style="list-style: none;"><a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-de-hipotecas/" class="bg-links">Calculadora de hipoteca</a></li>
+</ul></div>
+</div><div class="helpful-block-content wth-theme-thumbs" data-title="">
+<ul>
+<li><span class="wth-title">¿Te ha sido de ayuda?</span></li>
+<li style="list-style: none;"><a data-post="28" data-post-url="https://es.calcuworld.com/" data-post-title="Calculadoras Online" data-response="1" href="#" class="wth-green-btn icon-thumbsup icon1-thumbs-up4 bg-links">Sí</a><a data-response="0" data-post="28" data-post-url="https://es.calcuworld.com/" data-post-title="Calculadoras Online" href="#" class="wth-red-btn icon-thumbsdown icon1-thumbs-down4 bg-links">No</a></li>
+</ul>
+</div><div class="essb_links essb_counters essb_displayed_bottom essb_share essb_template_flat-retina essb_1139285506 print-no" id="essb_displayed_bottom_1139285506" data-essb-postid="28" data-essb-position="bottom" data-essb-button-style="button" data-essb-template="flat-retina" data-essb-counter-pos="inside" data-essb-url="https://es.calcuworld.com/" data-essb-twitter-url="https://es.calcuworld.com/" data-essb-instance="1139285506"><ul class="essb_links_list"><li class="essb_item essb_totalcount_item" data-counter-pos="inside"><span class="essb_totalcount essb_t_l_big " title="" data-shares-text="social"><span class="essb_t_nb">372<span class="essb_t_nb_after">social</span></span></span></li><li class="essb_item essb_link_facebook nolightbox" style="list-style: none;"> <a href="https://www.facebook.com/dialog/feed?app_id=378707772227213&amp;display=popup&amp;name=Calculadoras+Online&amp;link=https://es.calcuworld.com/&amp;redirect_uri=https://www.facebook.com&amp;picture=https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png&amp;description=En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo..." title="" onclick="essb_window('https://www.facebook.com/dialog/feed?app_id=378707772227213&amp;display=popup&amp;name=Calculadoras+Online&amp;link=https://es.calcuworld.com/&amp;redirect_uri=https://www.facebook.com&amp;picture=https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/principal.png&amp;description=En esta página encontrarás multitud de herramientas y calculadoras online que te harán la vida más fácil: calculadoras financieras, calculadoras de hipotecas, calculadoras de embarazo...','facebook_advanced','1139285506'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_facebook"></span><span class="essb_network_name"></span></a></li><li class="essb_item essb_link_twitter nolightbox" style="list-style: none;"> <a href="#" title="" onclick="essb_window('https://twitter.com/intent/tweet?text=Calculadoras+Online&amp;url=https://es.calcuworld.com/&amp;counturl=https://es.calcuworld.com/','twitter','1139285506'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_twitter"></span><span class="essb_network_name"><span class="essb_counter_inside" cnt="372">372</span></span></a></li><li class="essb_item essb_link_google nolightbox" style="list-style: none;"> <a href="https://plus.google.com/share?url=https://es.calcuworld.com/" title="" onclick="essb_window('https://plus.google.com/share?url=https://es.calcuworld.com/','google','1139285506'); return false;" target="_blank" rel="nofollow" class="bg-links"><span class="essb_icon essb_icon_google"></span><span class="essb_network_name"><span class="essb_counter_inside" cnt="0">0</span></span></a></li></ul></div>						
+<div style="text-align: center; margin: 10px 0;"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CW_links -->
+<ins class="adsbygoogle" style="display: block; height: 90px; background-color: white;" data-ad-client="ca-pub-1879349339774425" data-ad-slot="3624556348" data-ad-format="link" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display: inline-table; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 750px; background-color: white;"><ins id="aswift_2_anchor" style="display: block; border: none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 750px; background-color: white;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:750px;height:90px;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="750" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1879349339774425&amp;output=html&amp;h=90&amp;slotname=3624556348&amp;adk=814200315&amp;adf=3444757711&amp;w=750&amp;fwrn=4&amp;lmt=1590534269&amp;rafmt=10&amp;psa=0&amp;guci=2.2.0.0.2.2.0.0&amp;us_privacy=1---&amp;format=750x90_0ads_al&amp;url=https%3A%2F%2Fes.calcuworld.com%2F&amp;flash=0&amp;fwr=0&amp;wgl=1&amp;adsid=NT&amp;dt=1590534262942&amp;bpp=48&amp;bdt=13747&amp;idt=965&amp;shv=r20200520&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dec46a3cc36a5f217%3AT%3D1590534200%3AS%3DALNI_Mb3OdzGue5fjlSoS2VbfDkTM2QgPg&amp;crv=1&amp;prev_fmts=937x90_0ads_al%2C750x90_0ads_al%2C0x0&amp;nras=1&amp;correlator=3146842296994&amp;frm=20&amp;pv=1&amp;ga_vid=1328642008.1590534251&amp;ga_sid=1590534263&amp;ga_hid=1294331944&amp;ga_fc=0&amp;iag=0&amp;icsg=2955487266537216&amp;dssz=84&amp;mdo=0&amp;mso=0&amp;u_tz=-300&amp;u_his=2&amp;u_java=0&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=130&amp;ady=2503&amp;biw=1349&amp;bih=613&amp;scr_x=0&amp;scr_y=51&amp;eid=21066085&amp;oid=3&amp;psts=AGkb-H_a8Hs0wIgxgaBgwyHXYDQprYMHG2z-3hCD3Xx0SG5VGNsBsNavhQ%2CAGkb-H_a8Hs0wIgxgaBgwyHXYDQprYMHG2z-3hCD3Xx0SG5VGNsBsNavhQ%2CAGkb-H_a8Hs0wIgxgaBgwyHXYDQprYMHG2z-3hCD3Xx0SG5VGNsBsNavhQ&amp;pvsid=338091939490201&amp;pem=988&amp;rx=0&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C613&amp;vis=1&amp;rsz=%7C%7CoeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=8336&amp;bc=31&amp;ifi=7&amp;uci=a!7&amp;btvi=2&amp;fsb=1&amp;xpc=9ZGjwKzSCc&amp;p=https%3A//es.calcuworld.com&amp;dtd=6619" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!7" data-load-complete="true" data-google-query-id="CIOxzNPR0ukCFYppwQodUgAHKg"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+		</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+								
+
+							
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+	
+			<div id="secondary" class="widget-area" role="complementary">
+		
+		<div style="text-align: center">
+<!-- /13837015/CW_desktop_side -->
+<div id="div-gpt-ad-1446806101390-3" data-google-query-id="CNHSyNDR0ukCFXbf4wcdfcAD9g">
+<div id="google_ads_iframe_/13837015/CW_desktop_side_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="https://fe0cfb5a1441056f1d1a6f4476dd47b4.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html" id="google_ads_iframe_/13837015/CW_desktop_side_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="5" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div>
+</div>
+
+</div>
+				
+
+  				
+<div id="relacionados" style="margin: 10px 0;
+display: block;
+overflow: hidden; float: left;">
+	            <div class="art-rel">
+                
+       <a href="https://es.calcuworld.com/deporte-y-ejercicio/calculadora-de-imc/" class="thumbnail rel-sidebar">  
+       
+       
+       
+       <img width="50" height="50" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/imc-150x150.png" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/imc-150x150.png 150w, https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/imc.png 256w" sizes="(max-width: 50px) 100vw, 50px">       
+
+             
+              <h5>Calculadora de IMC</h5>          
+       </a>
+       
+		    
+	
+	</div><!-- .art-rel -->
+					    
+	            <div class="art-rel">
+                
+       <a href="https://es.calcuworld.com/calculadoras-matematicas/calculadora-cientifica/" class="thumbnail rel-sidebar">  
+       
+       
+       
+       <img width="50" height="50" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/cientifica-150x150.png" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/cientifica-150x150.png 150w, https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/cientifica.png 256w" sizes="(max-width: 50px) 100vw, 50px">       
+
+             
+              <h5>Calculadora científica</h5>          
+       </a>
+       
+		    
+	
+	</div><!-- .art-rel -->
+					    
+	            <div class="art-rel last">
+                
+       <a href="https://es.calcuworld.com/calculadoras-de-embarazo/" class="thumbnail rel-sidebar">  
+       
+       
+       
+       <img width="50" height="50" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2015/09/cw_embarazo-150x150.png" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="https://es.calcuworld.com/wp-content/uploads/sites/2/2015/09/cw_embarazo-150x150.png 150w, https://es.calcuworld.com/wp-content/uploads/sites/2/2015/09/cw_embarazo.png 256w" sizes="(max-width: 50px) 100vw, 50px">       
+
+             
+              <h5>Calculadoras de embarazo</h5>          
+       </a>
+       
+		    
+	
+	</div><!-- .art-rel -->
+					    
+	            <div class="art-rel">
+                
+       <a href="https://es.calcuworld.com/calculadoras-financieras/calculadora-de-hipotecas/" class="thumbnail rel-sidebar">  
+       
+       
+       
+       <img width="50" height="50" src="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/hipoteca-150x150.png" class="attachment-50x50 size-50x50 wp-post-image" alt="" srcset="https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/hipoteca-150x150.png 150w, https://es.calcuworld.com/wp-content/uploads/sites/2/2013/02/hipoteca.png 256w" sizes="(max-width: 50px) 100vw, 50px">       
+
+             
+              <h5>Calculadora de hipoteca</h5>          
+       </a>
+       
+		    
+	
+	</div><!-- .art-rel -->
+					    
+		
+</div>
+				
+
+<div style="margin: 10px 0; width: 100%; display: block; overflow: hidden;">
+ 
+
+ 
+  
+
+ 
+  
+    
+      
+  
+</div>
+<aside id="search-2" class="widget widget_search"><div class="well" style="margin: 10px 0;"><form action="https://es.calcuworld.com/" id="" method="get" style=" display:block; clear:both; overflow:hidden" ;="">
+	<div class="col-md-12"><input type="text" id="s" style="width: 100%; margin-bottom:5px;" name="s" value="" onfocus="if(this.value=='')this.value='';" onblur="if(this.value=='')this.value='';" autocomplete="off"></div>
+	<div class="col-md-12"><button type="submit" value="Search" id="searchsubmit" class="btn btn-success" style="margin:0; width:100%; float: left;"><span class="glyphicon glyphicon-search"></span> Buscar</button></div>
+</form>
+</div></aside>					
+
+<div id="dynamicFixedDiv">
+<div style="text-align: center">
+<!-- /13837015/CW_desktop_side2 -->
+<div id="div-gpt-ad-1446806101390-4" data-google-query-id="CL-vwtDR0ukCFaGNWwodnYoF5Q">
+<div id="google_ads_iframe_/13837015/CW_desktop_side2_0__container__" style="border: 0pt none; display: inline-block; width: 300px; height: 600px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html" id="google_ads_iframe_/13837015/CW_desktop_side2_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="300" height="600" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="6" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div>
+</div>
+</div>
+</div>
+
+	
+		<script>
+		jQuery(document).ready(function() {
+			var dynamicFixedDiv = jQuery("#dynamicFixedDiv > div");
+			jQuery(window).scroll(function() {
+				var topOfOthDiv = jQuery("#dynamicFixedDiv").offset().top;
+				if(jQuery(window).scrollTop() > topOfOthDiv - 100) {
+					if (dynamicFixedDiv.css('position') != 'fixed') {
+						dynamicFixedDiv.css('position', 'fixed');
+						dynamicFixedDiv.css('top', '100px');
+					}
+				} else {
+					if (dynamicFixedDiv.css('position') != '') {
+						dynamicFixedDiv.css('position', '');
+					}
+				}
+			});
+		});
+		</script>
+		</div><!-- #secondary -->
+		
+	
+
+	</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+            <div class="summon-fu regular" style=""><ul class="links left"><li><a href="https://es.calcuworld.com/contacto/" rel="nofollow" target="_blank">Contacto</a></li><li><a href="https://es.calcuworld.com/aviso-legal/" rel="nofollow" target="_blank">Aviso legal</a></li><li><a href="https://es.calcuworld.com/politica-de-privacidad/" rel="nofollow" target="_blank">Política de privacidad</a></li><li><a href="http://www.summonpress.com/politica-de-cookies" rel="nofollow" target="_blank">Política de cookies</a></li></ul></div>            <a class="change-consent" onclick="window.__cmp('displayConsentUi');">Cookies Consent</a>
+            <div class="menu-languages-container"><ul id="menu-languages" class="menu-languages"><li id="menu-item-10" class="flags gb menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-10"><a href="https://calcuworld.com">EN</a></li>
+<li id="menu-item-7" class="flags es menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-7"><a href="https://es.calcuworld.com" aria-current="page">ES</a></li>
+<li id="menu-item-8" class="flags de menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="https://de.calcuworld.com">DE</a></li>
+<li id="menu-item-9" class="flags fr menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="https://fr.calcuworld.com">FR</a></li>
+<li id="menu-item-11" class="flags it menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://it.calcuworld.com">IT</a></li>
+<li id="menu-item-12" class="flags pt menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://pt.calcuworld.com">PT</a></li>
+<li id="menu-item-1280" class="flags ru menu-item menu-item-type-custom menu-item-object-custom menu-item-1280"><a href="https://ru.calcuworld.com">RU</a></li>
+<li id="menu-item-1220" class="flags jp menu-item menu-item-type-custom menu-item-object-custom menu-item-1220"><a href="https://jp.calcuworld.com">JP</a></li>
+<li id="menu-item-824" class="flags cn menu-item menu-item-type-custom menu-item-object-custom menu-item-824"><a href="https://cn.calcuworld.com">CN</a></li>
+<li id="menu-item-1254" class="flags ko menu-item menu-item-type-custom menu-item-object-custom menu-item-1254"><a href="https://ko.calcuworld.com">KO</a></li>
+<li id="menu-item-1282" class="flags tr menu-item menu-item-type-custom menu-item-object-custom menu-item-1282"><a href="https://tr.calcuworld.com">TR</a></li>
+<li id="menu-item-1285" class="flags ar menu-item menu-item-type-custom menu-item-object-custom menu-item-1285"><a href="https://ar.calcuworld.com">AR</a></li>
+</ul></div>			Calcuworld 2020			<script type="text/javascript">
+	jQuery('.popup').click(function(){
+		window.open(this.href, "compartir", "width=500, height=400;")
+		return false;
+	})
+	
+	</script>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<link rel="stylesheet" id="wth-frontend-css" href="https://es.calcuworld.com/wp-content/plugins/was-this-helpful-pro//assets/css/common.css" type="text/css" media="all">
+<link rel="stylesheet" id="wth-layout_1-css" href="https://es.calcuworld.com/wp-content/plugins/was-this-helpful-pro/templates//layout/layout_1/layout_1.css" type="text/css" media="all">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/es.calcuworld.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-content/plugins/contact-form-7/includes/js/scripts.js" defer="defer"></script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-content/themes/twentytwelve/js/navigation.js" defer="defer"></script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-includes/js/wp-embed.min.js" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wth_js_lang = {"ajax_url":"https:\/\/es.calcuworld.com\/wp-admin\/admin-ajax.php","nonce":"1c2bc25b1a","confirm":"Are you sure to delete item?","positive_feedback":"true","positive_feedback_option":"feedback_share","positive_feedback_required":null,"negative_feedback":"true","negative_feedback_required":null,"wth_title_nothank":"\u00bfQu\u00e9 est\u00e1 mal? Por favor, ay\u00fadanos. ","wth_title_yesthank":"\u00a1Nos alegramos! Si te gusta, comp\u00e1rtelo.","wth_thank_you":"Gracias por tu valoraci\u00f3n.","submit_text":"Enviar","wth_ga_enable":"1","wth_ga_category":"\u00bfTe ha servido de ayuda?","wth_ga_positive":"Positive Reviews","wth_ga_negative":"Negative Reviews","wth_share_ask":"\u00a1Genial! Si te gusta, comp\u00e1rtelo.","wth_fb_share":"Compartir","wth_twitter_share":"Tuitear"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://es.calcuworld.com/wp-content/plugins/was-this-helpful-pro//assets/js/frontend.js" defer="defer"></script>
+<script type="text/javascript">
+				(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async=true;;
+				po.src = 'https://es.calcuworld.com/wp-content/plugins/easy-social-share-buttons3/assets/js/easy-social-share-buttons.min.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();</script><script type="text/javascript">var essb_handle_stats = function(oService, oPostID, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_postion = jQuery(element).attr("data-essb-position") || ""; var instance_template = jQuery(element).attr("data-essb-template") || ""; var instance_button = jQuery(element).attr("data-essb-button-style") || ""; var instance_counters = jQuery(element).hasClass("essb_counters") ? true : false; var instance_nostats = jQuery(element).hasClass("essb_nostats") ? true : false; if (instance_nostats) { return; } var instance_mobile = false; if( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) { instance_mobile = true; } if (typeof(essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_stat_log', 'post_id': oPostID, 'service': oService, 'template': instance_template, 'mobile': instance_mobile, 'position': instance_postion, 'button': instance_button, 'counter': instance_counters, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } };var essb_window = function(oUrl, oService, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; var wnd; var w = 800 ; var h = 500; if (oService == "twitter") { w = 500; h= 300; } var left = (screen.width/2)-(w/2); var top = (screen.height/2)-(h/2); if (oService == "twitter") { wnd = window.open( oUrl, "essb_share_window", "height=300,width=500,resizable=1,scrollbars=yes,top="+top+",left="+left ); } else { wnd = window.open( oUrl, "essb_share_window", "height=500,width=800,resizable=1,scrollbars=yes,top="+top+",left="+left ); } if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (typeof(essb_abtesting_logger) != "undefined") { essb_abtesting_logger(oService, instance_post_id, oInstance); } var pollTimer = window.setInterval(function() { if (wnd.closed !== false) { window.clearInterval(pollTimer); essb_smart_onclose_events(oService, instance_post_id); } }, 200); }; var essb_self_postcount = function(oService, oCountID) { if (typeof(essb_settings) != "undefined") { oCountID = String(oCountID); jQuery.post(essb_settings.ajax_url, { 'action': 'essb_self_postcount', 'post_id': oCountID, 'service': oService, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } }; var essb_smart_onclose_events = function(oService, oPostID) { if (typeof (essbasc_popup_show) == 'function') { essbasc_popup_show(); } if (typeof essb_acs_code == 'function') { essb_acs_code(oService, oPostID); } if (typeof(after_share_easyoptin) != "undefined") { essb_toggle_subscribe(after_share_easyoptin); } }; var essb_tracking_only = function(oUrl, oService, oInstance, oAfterShare) { var element = jQuery('.essb_'+oInstance); if (oUrl == "") { oUrl = document.URL; } var instance_post_id = jQuery(element).attr("data-essb-postid") || ""; var instance_position = jQuery(element).attr("data-essb-position") || ""; if (typeof(essb_settings) != "undefined") { if (essb_settings.essb3_stats) { if (typeof(essb_handle_stats) != "undefined") { essb_handle_stats(oService, instance_post_id, oInstance); } } if (essb_settings.essb3_ga) { essb_ga_tracking(oService, oUrl, instance_position); } } essb_self_postcount(oService, instance_post_id); if (oAfterShare) { essb_smart_onclose_events(oService, instance_post_id); } }; var essb_pinterest_picker = function(oInstance) { essb_tracking_only('', 'pinterest', oInstance); var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e); };var essb_ga_tracking = function(oService, oPosition, oURL) { var essb_ga_type = essb_settings.essb3_ga_mode; if ( 'ga' in window && window.ga !== undefined && typeof window.ga === 'function' ) { if (essb_ga_type == "extended") { ga('send', 'event', 'social', oService + ' ' + oPosition, oURL); } else { ga('send', 'event', 'social', oService, oURL); } } };</script>
+
+
+	
+ <script>
+ 	jQuery("div.related-posts ul li").addClass("col-xs-12 col-md-4");
+ 	jQuery("div.related-posts ul li a").addClass("bg-links");
+ 	//jQuery("div.related-posts ul li a").addClass("bg-links-related");
+ 	jQuery("ins").css('background-color','white');
+ 	/* jQuery("div.sd-social-icon-text").addClass("bg-links-related"); */
+
+ 	// Si no estamos en la calculadora Santoral-dia aplica bg-links
+ 	if( !jQuery('.calc-santoral-dia').length ) {
+	 	   		jQuery("#primary ul li a").addClass("bg-links");
+ 		jQuery("#primary ul li a").closest( "li" ).css( "list-style", "none" );
+	 	 
+ 	}
+ </script>
+
+	
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_3_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1879349339774425&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1590534263&amp;plat=1%3A32776%2C2%3A32776%2C8%3A32768%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32%2C40%3A32&amp;guci=2.2.0.0.2.2.0.0&amp;us_privacy=1---&amp;format=0x0&amp;url=https%3A%2F%2Fes.calcuworld.com%2F&amp;ea=0&amp;flash=0&amp;pra=7&amp;wgl=1&amp;adsid=NT&amp;dt=1590534263289&amp;bpp=5&amp;bdt=14094&amp;idt=645&amp;shv=r20200520&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Dec46a3cc36a5f217%3AT%3D1590534200%3AS%3DALNI_Mb3OdzGue5fjlSoS2VbfDkTM2QgPg&amp;crv=1&amp;prev_fmts=937x90_0ads_al%2C750x90_0ads_al&amp;nras=1&amp;correlator=3146842296994&amp;frm=20&amp;pv=1&amp;ga_vid=1328642008.1590534251&amp;ga_sid=1590534263&amp;ga_hid=1294331944&amp;ga_fc=0&amp;iag=0&amp;icsg=567283206367487&amp;dssz=59&amp;mdo=0&amp;mso=0&amp;u_tz=-300&amp;u_his=2&amp;u_java=0&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1017&amp;bih=576&amp;scr_x=0&amp;scr_y=0&amp;eid=21066085&amp;oid=3&amp;pvsid=338091939490201&amp;pem=988&amp;rx=0&amp;eae=2&amp;fc=896&amp;brdim=10%2C10%2C10%2C10%2C1366%2C0%2C1050%2C708%2C1034%2C576&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=8208&amp;bc=31&amp;ifi=9&amp;uci=a!9&amp;fsb=1&amp;dtd=669" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!9" data-load-complete="true"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_5353168075120" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><script src="https://static.sunmedia.tv/integrations/0d5d610e-6cea-4374-a372-1a906bb8c676/0d5d610e-6cea-4374-a372-1a906bb8c676.js" async=""></script><script src="https://static.sunmedia.tv/integrations/a3ffcc0f-de7c-497b-a244-25a4d62ed30e/a3ffcc0f-de7c-497b-a244-25a4d62ed30e.js" async=""></script><div style="width: 400px; height: 225px; z-index: 2147483647; position: fixed; bottom: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border: 1px solid rgb(204, 204, 204); box-sizing: content-box; padding: 4px; overflow: visible; background-color: rgb(238, 238, 238); right: -450px; transition: right 0.5s ease 0s;"><div id="1590534275969194839846" style="background-color: rgb(0, 0, 0); width: 400px; height: 225px; overflow: hidden; margin: 0px; padding: 0px; line-height: 0px; vertical-align: top; border: 0px; font-size: 0px; position: relative; left: 0px; top: 0px; text-align: center; display: table-cell; background-image: url(&quot;data:image/png;base64,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&quot;); background-size: 40px; background-position: center center; background-repeat: no-repeat;"><div id="lkqdad947326" style="height: 225px !important; width: 400px !important; overflow:hidden !important; position: absolute; top:0px; text-align:left"><video id="lkqdadvid947326" webkit-playsinline="webkit-playsinline" playsinline="playsinline" controlslist="nodownload" preload="auto" poster="data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=" style="position: relative; top: 0px; left: 0px; display: block; line-height: 0px; margin: 0px; padding: 0px; background-color: rgb(0, 0, 0); background-image: url(&quot;data:image/png;base64,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&quot;); background-size: 40px; background-position: center center; background-repeat: no-repeat;" width="400" height="225"></video><iframe style="display: none;"></iframe></div></div></div><script src="https://sync.richaudience.com/DF2886F390D432DF0C8E98D69702ED6F/"></script><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=21892462&amp;ns_ap_sv=2.1511.10&amp;ns_type=hidden&amp;ns_st_it=a&amp;ns_st_sv=4.0.0&amp;ns_st_ad=1&amp;ns_st_sq=1&amp;ns_st_id=795483914&amp;ns_st_ec=1&amp;ns_st_cn=1&amp;ns_st_ev=play&amp;ns_st_ct=va00&amp;ns_st_cl=0&amp;ns_st_pt=0&amp;c3=*null&amp;c4=*null&amp;c6=*null&amp;ns_ts=4225197" style="width: 1px !important; height: 1px !important;"><div id="SMIntext_frame_1590534264922" data-id="a3ffcc0f-de7c-497b-a244-25a4d62ed30e" data-device="desktop" class="SMMinimize_1590534264922" style="display: block; height: 150px; width: 1017px;"><video id="SMIntext_Player_1590534264922" class="SMPlayer" style="visibility: visible; display: block; background-color: transparent;" autoplay="" muted="" playsinline="" webkit-playsinline=""></video><div id="SMIntext_vpaid_1590534264922" class="SMPlayer_vpaid"><div id="SMVPAIDContainer_1590534264922" style="z-Index:10000;position:absolute;float:none;width:100%;height:100%;"><iframe style="border:0px;width:100%;height:100%;position:absolute;display:block;top:0px;left:0px;" id="vpaid_creative_1590534264922" scrolling="no" src="javascript:false"></iframe></div></div><div id="SMIntext_blocker_1590534264922" class="SMPlayer_blocker"></div><div id="SMIntext_Audio_1590534264922" class="SMPlayer_Audio" style="display: none;"></div><div id="SMIntext_Resize_1590534264922" class="SMPlayer_Resize" style="display: none;"></div><div id="SMIntext_Skip_1590534264922" class="SMPlayer_Skip" style="display: none;"></div><div id="SMIntext_remaining_1590534264922" class="SMPlayer_remaining" style="display: none;"></div><div id="SMIntext_label_1590534264922" class="SMPlayer_label" style="display: none;"></div><div id="SMIntext_playBtn_1590534264922" class="SMPlayer_playBtn" style="display: none;"></div><div id="SMIntext_AuxBanner_1590534264922" class="SMAuxBanner" style="display: none;"></div></div><script src="https://sync.richaudience.com/DF2886F390D432DF0C8E98D69702ED6F/"></script><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=21892462&amp;ns_ap_sv=2.1511.10&amp;ns_type=hidden&amp;ns_st_it=a&amp;ns_st_sv=4.0.0&amp;ns_st_ad=1&amp;ns_st_sq=1&amp;ns_st_id=341642590&amp;ns_st_ec=1&amp;ns_st_cn=1&amp;ns_st_ev=play&amp;ns_st_ct=va00&amp;ns_st_cl=0&amp;ns_st_pt=0&amp;c3=*null&amp;c4=*null&amp;c6=*null&amp;ns_ts=6362354" style="width: 1px !important; height: 1px !important;"><div id="smr-reference-1590534266171" class="smr-reference smr-reference-0d5d610e-6cea-4374-a372-1a906bb8c676 desktop" style="background-color:transparent;position:fixed!important;z-index:900000;width:420px!important;height:236.25px!important;right:20px;bottom: 60px;"></div><iframe height="0" width="0" frameborder="0" src="https://d.agkn.com/iframe/8613/?che=461855698&amp;gdpr=&amp;gdpr_consent=&amp;ref=&amp;bpid=sunmedia&amp;c=%7B%22bpid%22%3A%22sunmedia%22%2C%22loc%22%3A%22https%3A%2F%2Fes.calcuworld.com%2F%22%2C%22gdpr%22%3A%22%22%2C%22gdpr_consent%22%3A%22%22%2C%22ref%22%3A%22-1%22%2C%22cid%22%3A%22-1%22%2C%22sid%22%3A%22-1%22%2C%22gen%22%3A%22-1%22%2C%22age%22%3A%22-1%22%2C%22cat%22%3A%22Hobbies%20and%20Interests%22%2C%22brd%22%3A%22-1%22%7D" style="display: none;"></iframe><iframe height="0" width="0" frameborder="0" src="https://d.agkn.com/iframe/8613/?che=528281624&amp;gdpr=&amp;gdpr_consent=&amp;ref=&amp;bpid=sunmedia&amp;c=%7B%22bpid%22%3A%22sunmedia%22%2C%22loc%22%3A%22https%3A%2F%2Fes.calcuworld.com%2F%22%2C%22gdpr%22%3A%22%22%2C%22gdpr_consent%22%3A%22%22%2C%22ref%22%3A%22-1%22%2C%22cid%22%3A%22-1%22%2C%22sid%22%3A%22-1%22%2C%22gen%22%3A%22-1%22%2C%22age%22%3A%22-1%22%2C%22cat%22%3A%22Hobbies%20and%20Interests%22%2C%22brd%22%3A%22-1%22%7D" style="display: none;"></iframe><div id="smr_frame_1590534266171" data-id="0d5d610e-6cea-4374-a372-1a906bb8c676" data-device="desktop" style="position:fixed;z-index:900000;bottom:60px;right:20px;left:909px;width:420px;height:236px;"><video id="SMInHome_Player_1590534266171" class="SMPlayer" style="visibility: visible; display: none; background-color: transparent;" autoplay="" muted="" playsinline="" webkit-playsinline=""></video><div id="SMInHome_vpaid_1590534266171" class="SMPlayer_vpaid"><div id="SMVPAIDContainer_1590534266171" style="z-Index:10000;position:absolute;float:none;width:100%;height:100%;"><iframe style="border:0px;width:100%;height:100%;position:absolute;display:block;top:0px;left:0px;" id="vpaid_creative_1590534266171" scrolling="no" src="javascript:false"></iframe></div></div><div id="SMInHome_blocker_1590534266171" class="SMPlayer_blocker"></div><div id="SMInHome_Audio_1590534266171" class="SMPlayer_Audio" style="display: none;"></div><div id="SMInHome_Resize_1590534266171" class="SMPlayer_Resize" style="display: none;"></div><div id="SMInHome_Skip_1590534266171" class="SMPlayer_Skip" style="display: none;"></div><div id="SMInHome_remaining_1590534266171" class="SMPlayer_remaining" style="display: none;"></div><div id="SMInHome_label_1590534266171" class="SMPlayer_label" style="display: none;"></div><div id="SMInHome_playBtn_1590534266171" class="SMPlayer_playBtn" style="display: none;"></div><div id="SMInHome_AuxBanner_1590534266171" class="SMAuxBanner" style="display: none;"></div></div><iframe src="https://sync.richaudience.com/dcf3528a0b8aa83634892d50e91c306e/?ord=5435718&amp;pubconsent=1&amp;euconsent=1&amp;hasConsent=1" id="raiCsync" scrolling="no" style="width: 0px; height: 0px; float: left; border-style: none;"></iframe><iframe src="https://sync.richaudience.com/dcf3528a0b8aa83634892d50e91c306e/?ord=5435718&amp;pubconsent=1&amp;euconsent=1&amp;hasConsent=1" id="raiCsync" scrolling="no" style="width: 0px; height: 0px; float: left; border-style: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20200520/r20190131/zrt_lookup.html#" data-ad-client="ca-pub-1879349339774425" style="display: none;"></iframe></html>
