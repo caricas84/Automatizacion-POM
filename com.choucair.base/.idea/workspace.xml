@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b96c11f-2f21-42ca-9225-c5ebcd48ea0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/definition/CalculoCalorias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/pageobjects/CalculoCaloriasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/steps/CalculoCaloriasSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/resources/features/calculadora.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.reto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.reto/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f8b75c-d395-4d6b-8a52-a0483423bf39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/definition/CalculoCalorias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/pageobjects/CalculoCaloriasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/steps/CalculoCaloriasSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/resources/features/calculadora.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/Autentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/Autentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Validation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Validation.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
