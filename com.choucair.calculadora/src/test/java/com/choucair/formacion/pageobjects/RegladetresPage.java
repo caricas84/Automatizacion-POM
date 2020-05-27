@@ -12,14 +12,14 @@ public class RegladetresPage extends PageObject {
     @FindBy(xpath = "//*[@id=\'areas\']/div[1]/a")
     WebElementFacade Matemáticas;
     //Regladetres
-    @FindBy(xpath = "//*[@id=\'relacionados\']/div[2]/a/h5")
+    @FindBy(xpath = "//*[@id=\'relacionados\']/div[1]/a/h5")
     WebElementFacade Regladetres;
     //Valor1
-    @FindBy(xpath = "//*[@id=\'post-770\']/div/div[3]/div[2]/form/div[1]/div[1]/input")
-    WebElementFacade txtValor1;
+    @FindBy(id="dividendo")
+    WebElementFacade txtDividendo;
     //Valor2
-    @FindBy(xpath = "//*[@id=\'post-770\']/div/div[3]/div[2]/form/div[1]/div[3]/input")
-    WebElementFacade txtValor2;
+    @FindBy(id="divisor")
+    WebElementFacade txtDivisor;
     //Valor2
     @FindBy(xpath = "//*[@id=\'post-770\']/div/div[3]/div[2]/form/div[2]/div[1]/input")
     WebElementFacade txtValor3;
@@ -32,14 +32,14 @@ public class RegladetresPage extends PageObject {
         Regladetres.click();
     }
     public void Valor1(String datoPrueba) {
-        txtValor1.click();
-        txtValor1.clear();
-        txtValor1.sendKeys(datoPrueba);
+        txtDividendo.click();
+        txtDividendo.clear();
+        txtDividendo.sendKeys(datoPrueba);
     }
     public void Valor2(String datoPrueba) {
-        txtValor2.click();
-        txtValor2.clear();
-        txtValor2.sendKeys(datoPrueba);
+        txtDivisor.click();
+        txtDivisor.clear();
+        txtDivisor.sendKeys(datoPrueba);
     }
     public void Valor3(String datoPrueba) {
         txtValor3.click();

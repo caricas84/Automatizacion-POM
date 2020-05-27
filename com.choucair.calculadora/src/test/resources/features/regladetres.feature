@@ -6,6 +6,6 @@ Feature: Calculadora de calorías
   Scenario: Calculo exitoso de regla de tres
     Given que carolina necesita saber el resultado de una regla de tres
     When ella ingrese los números necesarios
-    |Valor1|Valor3|
-    |3     |4     |
+    |Dividendo|Divisor|
+    |40     |4     |
     Then ella tendra resultado
