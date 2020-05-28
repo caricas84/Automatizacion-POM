@@ -8,5 +8,5 @@ Como usuario debo autenticarme y registrar un usuario a la plataforma Colorlib.
     And  Ingreso a la funcionalidad Forms Validation
     When Diligencio formulario Inline Validation
     |Required|E-mail|Password|Confirm Password|Date|Url|Minimum|Maximum|Min|Max|
-    |Carolina|ccg@hotmail.com|123456|123456|02/09/2019|https://www.valor1.com|2468|135790|1020|1|
+    |Carolina|ccg@hotmail.com|123456|123456|02/09/2019|https://colorlib.com/polygon/metis/login.html|2468|135790|1020|1|
     Then verifico ingreso exitoso
