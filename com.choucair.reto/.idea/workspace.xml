@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f8b75c-d395-4d6b-8a52-a0483423bf39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/definition/CalculoCalorias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/pageobjects/CalculoCaloriasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/java/com/choucair/formacion/steps/CalculoCaloriasSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com.choucair.calculadora/src/test/resources/features/calculadora.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/SERENITY-JUNIT-formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base/target/site/serenity/formulario-popup-validation_diligenciamiento-exitoso-del-formulario-popup-validation_comma__screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CalIMC/target/site/serenity/430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalIMC/target/site/serenity/SERENITY-JUNIT-430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalIMC/target/site/serenity/SERENITY-JUNIT-430ecea245011fc1b0c4d3297de0c604a00324d934f12e1dd647f971e9e0ff01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalIMC/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CalIMC/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.choucair.base.reto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.choucair.base.reto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +29,7 @@
   <component name="ProjectId" id="1cDukwujUZ5hfcUwyGUUhzgBmNI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.choucair.base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
