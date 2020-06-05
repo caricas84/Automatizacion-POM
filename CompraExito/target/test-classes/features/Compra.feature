@@ -1,5 +1,5 @@
-#Autor: Carolina Castaño
-  
+#Autor: Carolina Castaño González
+
 @Regression
 Feature: Purchase a Samsung TV at exito
 

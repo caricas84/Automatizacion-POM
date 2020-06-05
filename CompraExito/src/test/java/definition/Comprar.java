@@ -21,7 +21,5 @@ public class Comprar {
     }
 
     @Then("^she makes the purchase and the TV is delivered at home$")
-    public void she_makes_the_purchase_and_the_TV_is_delivered_at_home() {
+    public void she_makes_the_purchase_and_the_TV_is_delivered_at_home() {comprarSteps.validar();}
     }
-
-}

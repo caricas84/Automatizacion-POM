@@ -4,6 +4,7 @@ import net.thucydides.core.annotations.Step;
 import pageobjects.ComprarPageObjects;
 
 public class ComprarSteps {
+
     ComprarPageObjects comprarPageObjects;
     @Step
 
@@ -11,5 +12,8 @@ public class ComprarSteps {
     @Step
 
     public void buscar(){comprarPageObjects.buscarTV();}
+
+    @Step
+    public void validar(){comprarPageObjects.verificarCompra();}
 
 }
